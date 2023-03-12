@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c7ad2fd6-a50a-4af3-a1e5-5270b83c6d46/deploy-status)](https://app.netlify.com/sites/heartfelt-cobbler-92d6bc/deploys)
 
-# EldenRingProject
+# Elden Ring Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
