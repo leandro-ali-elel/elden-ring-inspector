@@ -7,6 +7,13 @@ const routes: Routes = [
     path: '',
     component: ScriptsComponent,
   },
+  {
+    path: ':scriptId',
+    loadChildren: () =>
+      import('./script-detail/script-detail.module').then(
+        (m) => m.ScriptDetailModule
+      ),
+  },
 ];
 
 @NgModule({

@@ -1,1 +1,9 @@
-<p>scripts works!</p>
+<li>
+  <ng-container *ngFor="let script of scripts">
+    <ul [routerLink]="[script.id]">
+      {{
+        script.title
+      }}
+    </ul>
+  </ng-container>
+</li>

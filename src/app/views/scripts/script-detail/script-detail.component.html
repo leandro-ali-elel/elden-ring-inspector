@@ -1,0 +1,11 @@
+<button [routerLink]="['../']">volver al listado de guiones</button>
+
+<ng-container *ngIf="script$ | async as script; loadingScript">
+  <section class="script">
+    <h1>{{ script.title }}</h1>
+    <p>
+      {{ script.content }}
+    </p>
+  </section>
+</ng-container>
+<ng-template #loadingScript> loadingScript... </ng-template>
