@@ -28,6 +28,7 @@ export const SCRIPTS: Script[] = [
   El que nadie pudiera tomar el rol de Señor del Círculo hizo que la Gran Voluntad, el Dios de las Tierras Intermedias, enfureciera por la traición de Marika y su ejecución brillante de un plan que llevaba años elucubrando. La Gran Voluntad cayó en la trampa de la Reina Eterna, invocando a los sinluz.
   Y así Morgott, el Monarca Velado empleó a caballeros negros para que recorrieran el negro matando a cuantos campeones se cruzaran, estableciendo medidas defensivas para la llegada de los sinluz, y hasta ocupándose personalmente de aquellos que lograran un avance significativo en su camino hacia Leyndell; y esto lo hizo sin abandonar su reino, gracias a sus poderes divinos: su sangre del linaje dorado, le permitía manifestarse físicamente en las Tierras Intermedias bajo el seudónimo de Margit, el augurio caído. Y así gobernó con mano dura defendiendo sus creencias.
   Morgott sabe que su lucha es inútil, que la oscuridad ha consumido al reino y que solo queda la resignación. Pero aun así, sigue adelante, luchando, aun sabiendo que la victoria es imposible. Y mientras tanto, el niño que lloraba al mirar al cielo, sabe muy bien que su destino está sellado, que pronto se unirá a los fantasmas de su familia en la oscuridad eterna.`,
+    url: `https://www.youtube.com/embed/QIb0MwrtnoU`,
   },
 ];
 
@@ -35,6 +36,7 @@ export interface Script {
   id: string;
   title: string;
   content: string;
+  url?: string;
 }
 // interface Ash {
 //   [k: string]: { name: string; description: string; icon: string };

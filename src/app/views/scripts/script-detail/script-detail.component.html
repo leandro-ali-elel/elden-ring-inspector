@@ -7,5 +7,15 @@
       {{ script.content }}
     </p>
   </section>
+
+  <iframe
+    width="560"
+    height="315"
+    [src]="script.url | sanitize"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
 </ng-container>
 <ng-template #loadingScript> loadingScript... </ng-template>
