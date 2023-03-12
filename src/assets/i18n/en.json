@@ -1,4 +1,13 @@
 {
+  "commons": {
+    "header": {
+      "nav": {
+        "home": "Home",
+        "items": "Items",
+        "scripts": "Scripts"
+      }
+    }
+  },
   "ashes": {
     "nobleSorcerer": {
       "name": "Ashes of a noble sorcerer",

@@ -1,4 +1,13 @@
 {
+  "commons": {
+    "header": {
+      "nav": {
+        "home": "Home",
+        "items": "Items",
+        "scripts": "Guiones"
+      }
+    }
+  },
   "ashes": {
     "nobleSorcerer": {
       "name": "Cenizas de un hechicero noble",

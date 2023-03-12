@@ -1,3 +1,13 @@
 <button (click)="changeLang('en')">EN</button>
 <button (click)="changeLang('es')">ES</button>
 <button (click)="changeLang('jp')">JP</button>
+
+<ul>
+  <li [routerLink]="['']">{{ "commons.header.nav.home" | transloco }}</li>
+  <li [routerLink]="['/items']">
+    {{ "commons.header.nav.items" | transloco }}
+  </li>
+  <li [routerLink]="['/scripts']">
+    {{ "commons.header.nav.scripts" | transloco }}
+  </li>
+</ul>
