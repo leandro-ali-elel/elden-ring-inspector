@@ -1,0 +1,24 @@
+{
+  "ashes": {
+    "nobleSorcerer": {
+      "name": "Cenizas de un hechicero noble",
+      "description": "<p>Invoca el espíritu de un hechicero noble.</p><p>Espíritu de un noble que una vez aprendió hechicería de piedras refulgentes en Raya Lucaria al tocar sus puertas.</p><p>Pero su talento no fue suficiente para vestir la Cabeza de Piedras Refulgentes, y solo puede usar magia de lo más rudimentaria."
+    },
+    "nomad": {
+      "name": "Cenizas de un nómada",
+      "description": "<p>Invoca el espíritu de un nómada</p><p>Espíritu del miembro de una familia enterrada en la tierra, invocando una enfermedad loca.</p><p>Sus ojos emiten un fuego enloquecedor terrible, pero es un hombre frágil y enfermo, con poco HP.</p>"
+    },
+    "putridCorpses": {
+      "name": "Cenizas de cadáveres podridos",
+      "description": "<p>Invoca 4 espíritus espectrales putrefactos.</p><p>Los espíritus son invocados a una distancia alejada.</p><p>Se mueven lentamente, pero atraen a los enemigos con sus gruñidos y gemidos</p><p>Y no mueren fácilmente.</p>"
+    },
+    "skeletalMilitiaman": {
+      "name": "Cenizas de esqueletos de la milicia",
+      "description": "<p>Invoca 2 espíritus de esqueletos de la milicia.</p><p>Espíritus de aquellos que viven en la muerte, quienes se alzaran una y otra vez, a menos de que sean detenidos.</p><p>El impío final de aquellos tocados por la raíz de la muerte</p>"
+    },
+    "wanderingNoble": {
+      "name": "Cenizas de nobles errantes",
+      "description": "<p>Invoca los espíritus de 5 nobles errantes</p><p>Espíritus de nobles que han vagado dentro y fuera de las Tierras Intermedias. Estaban buscando algo, pero parece que han olvidado qué era.</p>"
+    }
+  }
+}

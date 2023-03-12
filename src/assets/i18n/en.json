@@ -1,0 +1,24 @@
+{
+  "ashes": {
+    "nobleSorcerer": {
+      "name": "Ashes of a noble sorcerer",
+      "description": "<p>Summon the spirit of a noble sorcerer.</p><p>Spirit of the nobleman who once learned glintstone magic by knocking on the door of the magic academy Raya Lucaria.</p><p>But his talent is not worthy to wear the glintstone head, and can use only the most rudimentary magic.</p>"
+    },
+    "nomad": {
+      "name": "Ashes of a nomad",
+      "description": "<p>Summons the spirit of a nomad</p><p>Spirit of a member of a family buried in the earth, calling forth a mad disease.</p><p>His eyes emit a terrible, mad fire, but he is a sickly man, with low HP and is weak.</p>"
+    },
+    "putridCorpses": {
+      "name": "Ashes of rotting corpses",
+      "description": "<p>Summons 4 rotting wraith spirits.</p><p>Spirits are summoned to a far location</p><p>Their movement is slow, but they attract the enemy with their grunts and moans.</p><p>And they don't die easly.</p>"
+    },
+    "skeletalMilitiaman": {
+      "name": "Ashes of Militia Skeleton",
+      "description": "<p>Summon 2 militia skeleton spirits.</p><p>Spirits of those who live in death, who will rise again and again unless they are stopped.</p><p>The unholy end of those touched by the root of death</p>"
+    },
+    "wanderingNoble": {
+      "name": "Ashes of Wandering Noblemen",
+      "description": "<p>Summons 5 wandering noble spirits</p><p>The spirits of the nobles who wandered in and out the Lands Between, they must have been looking for something, but now they seem to have forgotten what it is.</p>"
+    }
+  }
+}
