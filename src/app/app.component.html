@@ -1,26 +1,3 @@
-<header>
-  <button (click)="changeLang('en')">EN</button>
-  <button (click)="changeLang('es')">ES</button>
-  <button (click)="changeLang('jp')">JP</button>
-</header>
-<p>
-  Según entiendo, las cenizas tienen como un eco del alma del ser. Las
-  descripciones parecieran llamar espíritus a estas invocaciones con ceniza,
-  como si los espíritus fueran un eco del alma, o algo así. Tal vez en realidad
-  son términos intercambiables en el lore de Elden Ring, por el momento no me
-  arriesgo a decir nada
-</p>
-<ng-container *ngFor="let ash of ashes">
-  <div class="card">
-    <div class="media">
-      <img src="assets/images/ashes/{{ ash.icon }}" alt="" />
-    </div>
-    <div class="content">
-      <p class="name">
-        {{ "ashes." + ash.key + ".name" | transloco }}
-      </p>
-      <p [innerHTML]="'ashes.' + ash.key + '.description' | transloco"></p>
-    </div>
-    <p *ngIf="ash.comment">{{ ash.comment }}</p>
-  </div>
-</ng-container>
+<app-layout>
+  <router-outlet></router-outlet>
+</app-layout>
