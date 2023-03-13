@@ -1,0 +1,13 @@
+@import "abstracts/variables";
+main {
+  color: $white;
+  .background {
+    background-image: url("/assets/images/backgrounds/clouds.webp");
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+}
