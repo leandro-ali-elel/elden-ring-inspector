@@ -1,6 +1,9 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @use "@angular/material" as mat;
+@import "@angular/material/theming";
+
+@include mat.core();
 
 // Plus imports for other components in your app.
 
@@ -8,15 +11,6 @@
 // have to load a single css file for Angular Material in your app.
 // Be sure that you only ever include this mixin once!
 
-@include mat.core();
-@import '@angular/material/theming';
-
-$typography-configuration: mat-typography-config(
-  $font-family: "'Noto Serif JP', serif",
-  $font-size: 1rem
-);
-
-@include angular-material-typography($typography-configuration);
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
@@ -35,7 +29,6 @@ $elden-ring-project-theme: mat.define-light-theme(
     color: (
       primary: $elden-ring-project-primary,
       accent: $elden-ring-project-accent,
-      warn: $elden-ring-project-warn,
     ),
   )
 );
@@ -49,3 +42,15 @@ body {
 body {
   margin: 0;
 }
+
+// -----------------------------------------------------------------------------------------------------
+// @ Typography
+// -----------------------------------------------------------------------------------------------------
+
+// Angular Material typography
+$typography: mat-typography-config(
+  $font-family: "Noto Serif JP",
+);
+
+// Setup the typography
+@include angular-material-typography($typography);
