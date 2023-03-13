@@ -15,9 +15,7 @@
           alt=""
         />
       </div>
-      <p>
-        {{ script.content }}
-      </p>
+      <p [innerHTML]="script.content"></p>
     </section>
     <section class="video">
       <zanothwiki-youtube-player
