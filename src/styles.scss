@@ -7,14 +7,12 @@ $elden-ring-project-primary: mat.define-palette(mat.$indigo-palette);
 $elden-ring-project-accent: mat.define-palette(mat.$pink-palette);
 
 $zanothwiki-headline-5: mat.define-typography-level(
-  $font-size: 90px,
-  $font-family: "Noto Serif JP, sans",
+  $font-size: 4.2rem,
 );
 
 $zanothwiki-typography: mat.define-typography-config(
   $headline-5: $zanothwiki-headline-5,
-  $button: $zanothwiki-headline-5,
-  $body-1: $zanothwiki-headline-5,
+  $font-family: "Noto Serif JP, sans",
 );
 
 $elden-ring-project-theme: mat.define-light-theme(
