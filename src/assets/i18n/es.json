@@ -14,6 +14,14 @@
     }
   },
   "ashes": {
+    "blackKnifeTiche": {
+      "name": "Cenizas de Tiche la Cuchilla Negra",
+      "description": "<p>Una de las asesinas que mató a Godwin el Dorado con la Runa de la Muerte en su cuchilla en la Noche de la Conspiración</p><p>Tiche, la hija de Alecto, la jefa de las Cuchillas Negras, perdió su vida protegiendo a su madre mientras escapaban de la Capital Real.</p>"
+    },
+    "mausoleumSoldiers": {
+      "name": "Cenizas de soldados del mausoleo",
+      "description": "<p>Invoca 5 espíritus de soldados del mausoleo.</p><p>Los cinco cuerpos decapitados desaparecen y reaparecen a voluntad, jugando con los enemigos.</p><p>El maouselo es el mortuario de los semidioses sin alma, de los que los soldados son mártires que perdieron sus cabezas.</p>"
+    },
     "nobleSorcerer": {
       "name": "Cenizas de un hechicero noble",
       "description": "<p>Invoca el espíritu de un hechicero noble.</p><p>Espíritu de un noble que una vez aprendió hechicería de piedras refulgentes en Raya Lucaria al tocar sus puertas.</p><p>Pero su talento no fue suficiente para vestir la Cabeza de Piedras Refulgentes, y solo puede usar magia de lo más rudimentaria."

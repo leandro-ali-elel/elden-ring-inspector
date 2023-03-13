@@ -5,17 +5,22 @@
   son términos intercambiables en el lore de Elden Ring, por el momento no me
   arriesgo a decir nada
 </p>
-<ng-container *ngFor="let ash of ashes">
-  <div class="card">
-    <div class="media">
-      <img src="assets/images/ashes/{{ ash.icon }}" alt="" />
-    </div>
-    <div class="content">
+<div class="ashes-container">
+  <ng-container *ngFor="let ash of ashes">
+    <div class="card">
+      <div class="media">
+        <img src="assets/images/ashes/{{ ash.icon }}" alt="" />
+        <div class="content">
+          {{ "ashes." + ash.key + ".name" | transloco }}
+        </div>
+      </div>
+      <!-- <div class="content">
       <p class="name">
         {{ "ashes." + ash.key + ".name" | transloco }}
       </p>
       <p [innerHTML]="'ashes.' + ash.key + '.description' | transloco"></p>
     </div>
-    <p *ngIf="ash.comment">{{ ash.comment }}</p>
-  </div>
-</ng-container>
+    <p *ngIf="ash.comment">{{ ash.comment }}</p> -->
+    </div>
+  </ng-container>
+</div>

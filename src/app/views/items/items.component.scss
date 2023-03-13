@@ -1,0 +1,14 @@
+.ashes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  .card {
+    text-align: center;
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    margin: auto;
+  }
+}

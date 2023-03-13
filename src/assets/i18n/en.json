@@ -14,6 +14,14 @@
     }
   },
   "ashes": {
+    "blackKnifeTiche": {
+      "name": "Black Knife Tiche ashes",
+      "description": "<p>One of the assassins who killed Godwin the Golden with the rune of death on her black blade in the night of the conspiracy.</p><p>Tiche, the daughter of Alecto, the chief of the Black Blades, lost her life protecting her mother during her flight from the Royal Capital.</p>"
+    },
+    "mausoleumSoldiers": {
+      "name": "Ashes of mausoleum soldiers",
+      "description": "<p>Summons 5 mausoleum soldiers spirits</p><p>The headless bodies of five soldiers, who disappear and reappear at will, toying with the enemy.</p><p>The mausoleum is the mortuary of the soulless demigods whose soldiers are martyrs who lost their own heads.</p>"
+    },
     "nobleSorcerer": {
       "name": "Ashes of a noble sorcerer",
       "description": "<p>Summon the spirit of a noble sorcerer.</p><p>Spirit of the nobleman who once learned glintstone magic by knocking on the door of the magic academy Raya Lucaria.</p><p>But his talent is not worthy to wear the glintstone head, and can use only the most rudimentary magic.</p>"

@@ -1,5 +1,15 @@
 export const ASHES: Ash[] = [
   {
+    key: `blackKnifeTiche`,
+    icon: `black_knife_tiche_ashes.png`,
+    special: true,
+    comment: `Interesante vinculación afectiva dentro del grupo de las Cuchillas Negras, fue una venganza muy planificada que incluso animó a las familias de las involucradas.`,
+  },
+  {
+    key: `mausoleumSoldiers`,
+    icon: `mausoleum_soldier_ashes.png`,
+  },
+  {
     key: `nobleSorcerer`,
     icon: `noble_sorcerer_ashes.png`,
     comment: `Creo que solo sirve para señalar que la gente que usaba esas cabezas de piedra refulgente, eran magos consumados, y los que no tenían éxito... pues terminaban así.`,
@@ -17,17 +27,17 @@ export const ASHES: Ash[] = [
   {
     key: `skeletalMilitiaman`,
     icon: `skeletal_militiaman_ashes.png`,
-    // comment: `Parece el nombre de una banda de brutal death metal`,
   },
   {
     key: `wanderingNoble`,
     icon: `wandering_noble_ashes.png`,
   },
 ];
-
+// Qué trabajo de mierda
 export interface Ash {
   key: string;
   icon: string;
+  special?: boolean;
   comment?: string;
 }
 // interface Ash {
