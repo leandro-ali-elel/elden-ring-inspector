@@ -7,6 +7,7 @@ import { YouTubePlayer } from '@angular/youtube-player';
 })
 export class YoutubePlayerComponent implements OnInit {
   @Input() public videoId? = '';
+  @Input() public borders = true;
   @ViewChild('youtubePlayer') youtubePlayer!: YouTubePlayer;
 
   private apiLoaded = false;

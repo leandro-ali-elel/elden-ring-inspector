@@ -1,0 +1,22 @@
+.content {
+  position: relative;
+  ::before,
+  ::after {
+    content: "";
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  ::before {
+    top: 0;
+    background-image: url("/assets/images/borders/before-video-border.png");
+  }
+  ::after {
+    bottom: 0;
+    background-image: url("/assets/images/borders/after-video-border.png");
+  }
+}

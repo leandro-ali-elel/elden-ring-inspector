@@ -1,0 +1,28 @@
+.container {
+  padding: 80px;
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+
+    img {
+      width: 400px;
+      height: auto;
+    }
+  }
+
+  .script {
+    margin-bottom: 80px;
+  }
+
+  .video {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      margin-top: 40px;
+      width: 150px;
+      height: auto;
+    }
+  }
+}
