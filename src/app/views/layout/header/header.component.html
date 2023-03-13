@@ -1,13 +1,26 @@
-<button (click)="changeLang('en')">EN</button>
-<button (click)="changeLang('es')">ES</button>
-<button (click)="changeLang('jp')">JP</button>
-
-<ul>
-  <li [routerLink]="['']">{{ "commons.header.nav.home" | transloco }}</li>
-  <li [routerLink]="['/items']">
-    {{ "commons.header.nav.items" | transloco }}
-  </li>
-  <li [routerLink]="['/scripts']">
-    {{ "commons.header.nav.scripts" | transloco }}
-  </li>
-</ul>
+<header>
+  <ul>
+    <li [routerLink]="['']">{{ "commons.header.nav.home" | transloco }}</li>
+    <li [routerLink]="['/items']">
+      {{ "commons.header.nav.items" | transloco }}
+    </li>
+    <li [routerLink]="['/scripts']">
+      {{ "commons.header.nav.scripts" | transloco }}
+    </li>
+  </ul>
+  <div class="lang">
+    <button
+      aria-label="button to open language selector menu"
+      mat-button
+      color="primary"
+      (click)="openLanguageModal()"
+    >
+      <mat-icon
+        aria-hidden="false"
+        aria-label="language icon"
+        fontIcon="language"
+      ></mat-icon>
+      {{ selectedLang$ | async }}
+    </button>
+  </div>
+</header>

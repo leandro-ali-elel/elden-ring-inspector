@@ -8,10 +8,12 @@ $elden-ring-project-accent: mat.define-palette(mat.$pink-palette);
 
 $zanothwiki-h1: mat.define-typography-level(
   $font-size: 4.2rem,
+  $font-weight: 600,
 );
 
 $zanothwiki-p: mat.define-typography-level(
   $font-size: 1.8rem,
+  $font-weight: 600,
   $line-height: 1.8,
 );
 

@@ -6,6 +6,11 @@
         "items": "Items",
         "scripts": "Guiones"
       }
+    },
+    "language": {
+      "es": "Español",
+      "en": "Inglés",
+      "jp": "Japonés"
     }
   },
   "ashes": {
