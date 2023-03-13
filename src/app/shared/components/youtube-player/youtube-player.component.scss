@@ -8,15 +8,17 @@
     height: 100%;
     width: 100%;
     z-index: 1;
-    background-repeat: no-repeat;
     background-size: contain;
+    background: no-repeat 50%/100%;
+    transform: translateY(calc(-50% - 2px));
+    pointer-events: none;
   }
   ::before {
-    top: 0;
+    // top: 0;
     background-image: url("/assets/images/borders/before-video-border.png");
   }
   ::after {
-    bottom: 0;
+    transform: translateY(calc(50% - 5px)) rotate(180deg);
     background-image: url("/assets/images/borders/after-video-border.png");
   }
 }
