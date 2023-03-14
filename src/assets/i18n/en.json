@@ -2,6 +2,7 @@
   "commons": {
     "header": {
       "nav": {
+        "ashes": "Ashes",
         "home": "Home",
         "items": "Items",
         "scripts": "Scripts"
