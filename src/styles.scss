@@ -23,7 +23,7 @@ $zanothwiki-typography: mat.define-typography-config(
   $font-family: "Noto Serif JP, sans",
 );
 
-$elden-ring-project-theme: mat.define-light-theme(
+$elden-ring-project-theme: mat.define-dark-theme(
   (
     color: (
       primary: $elden-ring-project-primary,

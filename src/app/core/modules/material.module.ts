@@ -55,6 +55,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatPaginatorModule,
     MatDialogModule,
     MatTabsModule,
+    MatTableModule,
   ],
   providers: [MatDatepickerModule],
 })

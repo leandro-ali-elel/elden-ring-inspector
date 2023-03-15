@@ -1,3 +1,5 @@
+import { Item } from './item';
+
 export const ASHES: Ash[] = [
   {
     key: `blackKnifeTiche`,
@@ -34,9 +36,7 @@ export const ASHES: Ash[] = [
   },
 ];
 // Qué trabajo de mierda
-export interface Ash {
-  key: string;
-  icon: string;
+export interface Ash extends Item {
   special?: boolean;
   comment?: string;
 }

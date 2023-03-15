@@ -1,0 +1,15 @@
+.consumables-container {
+  padding: 40px;
+
+  .icon {
+    max-width: 100px;
+  }
+  table {
+    td {
+      padding: 10px 0px;
+      .table-text {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

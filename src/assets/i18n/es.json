@@ -43,5 +43,17 @@
       "name": "Cenizas de nobles errantes",
       "description": "<p>Invoca los espíritus de 5 nobles errantes</p><p>Espíritus de nobles que han vagado dentro y fuera de las Tierras Intermedias. Estaban buscando algo, pero parece que han olvidado qué era.</p>"
     }
+  },
+  "items": {
+    "consumables": {
+      "consumableFlaskOfCrimsonTears": {
+        "name": "Botella del Cáliz de la Gota Escarlata",
+        "description": "<p>Una botella con forma de un cáliz dorado que alguna vez recibió gotas de gracia.</p><p>Está llena con gotas escarlata, restaura HP con cada uso o descansando en una Bendición.</p><p>Quizás el cuerpo que tendría que haber sido arrastrado hacia el cementerio y simplemente haber muerto fue curado con esto, para buscar el Elden Ring.</p>"
+      },
+      "consumableFlaskOfCeruleanTears": {
+        "name": "Botella del Cáliz de la Gota Azul",
+        "description": "<p>Una botella con forma de un cáliz dorado que alguna vez recibió gotas de gracia.</p><p>Está llena con gotas azules, restaura MP con cada uso o descansando en una Bendición.</p><p>Quizás el cuerpo que tendría que haber sido arrastrado hacia el cementerio y simplemente haber muerto fue curado con esto, para buscar el Elden Ring.</p>"
+      }
+    }
   }
 }

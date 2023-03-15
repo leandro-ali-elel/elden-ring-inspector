@@ -14,6 +14,7 @@
       "jp": "Japanese"
     }
   },
+
   "ashes": {
     "blackKnifeTiche": {
       "name": "Black Knife Tiche ashes",
@@ -42,6 +43,18 @@
     "wanderingNoble": {
       "name": "Ashes of Wandering Noblemen",
       "description": "<p>Summons 5 wandering noble spirits</p><p>The spirits of the nobles who wandered in and out the Lands Between, they must have been looking for something, but now they seem to have forgotten what it is.</p>"
+    }
+  },
+  "items": {
+    "consumables": {
+      "consumableFlaskOfCrimsonTears": {
+        "name": "Scarlet Drop Chalice Bottle",
+        "description": "<p>A bottle in the shape of a golden chalice that once received drops of grace.</p><p>Filled with scarlet drops, HP is restored by use or replenished by resting in blessing.</p><p>The body that should have washed up in the graveyard and simply died was perhaps healed by this, to seek the Elden ring</p>"
+      },
+      "consumableFlaskOfCeruleanTears": {
+        "name": "Blue Drop Chalice Bottle",
+        "description": "<p>A bottle in the shape of a golden chalice that once received drops of grace.</p><p>Filled with blue drops, FP is recovered through use, also replenished by resting in blessings.</p><p>The body that should have washed up in the graveyard and simply died was perhaps healed by this, to seek the Elden ring</p>"
+      }
     }
   }
 }
