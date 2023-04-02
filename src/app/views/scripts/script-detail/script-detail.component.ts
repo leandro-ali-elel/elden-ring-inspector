@@ -12,7 +12,7 @@ import { Script, SCRIPTS } from 'src/app/db/scripts';
 export class ScriptDetailComponent implements OnInit {
   private route = inject(ActivatedRoute);
   protected script$!: Observable<Script>;
-
+  
   ngOnInit(): void {
     this.script$ = this.route.paramMap.pipe(
       map((params) => params.get('scriptId')),

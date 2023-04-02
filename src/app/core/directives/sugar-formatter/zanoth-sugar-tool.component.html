@@ -1,0 +1,6 @@
+<ng-container *ngIf="itemId; else genericText">
+  <div zanothwikiTooltip [itemId]="itemId" [innerHTML]="text"></div>
+</ng-container>
+<ng-template #genericText>
+  <div [innerHTML]="text"></div>
+</ng-template>
