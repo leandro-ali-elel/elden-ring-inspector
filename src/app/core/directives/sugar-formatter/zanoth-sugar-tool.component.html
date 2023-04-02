@@ -1,6 +1,10 @@
 <ng-container *ngIf="itemId; else genericText">
-  <div zanothwikiTooltip [itemId]="itemId" [innerHTML]="text"></div>
+  <div
+    zanothwikiTooltip
+    [itemId]="itemId"
+    [innerHTML]="text | sanitize : 1"
+  ></div>
 </ng-container>
 <ng-template #genericText>
-  <div [innerHTML]="text"></div>
+  <div [innerHTML]="text | sanitize : 1"></div>
 </ng-template>

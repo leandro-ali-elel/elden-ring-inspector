@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { SanitizeModule } from 'src/app/shared/pipes/sanitization/sanitize.module';
 import { TooltipModule } from '../tooltip/item-tooltip.module';
-import { SugarFormatterModule } from './sugar-formatter.module';
 
 @Component({
   selector: 'zanoth-sugar-tool',
   templateUrl: './zanoth-sugar-tool.component.html',
-  imports: [CommonModule, TooltipModule],
+  imports: [CommonModule, TooltipModule, SanitizeModule],
   standalone: true,
 })
 export class ZanothSugarToolComponent {
