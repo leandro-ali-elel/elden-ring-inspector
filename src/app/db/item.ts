@@ -1,16 +1,23 @@
 export const ITEMS: Item[] = [
   {
-    key: '1',
-    text: `<p>NO PARO EEEHHH </p><p>AAAAA!!!</p>`,
+    key: 'consumableFlaskOfCrimsonTears',
+    icon: 'flask_of_crimson_tears.png',
+    type: 'consumables',
   },
   {
-    key: 'wawa',
-    text: `<p>aaaaaNO PARO EEEHHH </p><p>AAAAA!!!</p>`,
+    key: 'consumableFlaskOfCeruleanTears',
+    icon: 'flask_of_cerulean_tears.png',
+    type: 'consumables',
+  },
+  {
+    key: 'mapLakeOfRot',
+    icon: 'map_lake_of_rot.png',
+    type: 'maps',
   },
 ];
 
 export interface Item {
   key: string;
-  text?: string;
+  type: 'maps' | 'consumables' | 'ashes';
   icon?: string;
 }

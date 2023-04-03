@@ -1,8 +1,9 @@
-import { DialogRef, DIALOG_DATA } from '@angular/cdk/dialog';
 import {
   Overlay,
   OverlayPositionBuilder,
   OverlayRef,
+  ScrollStrategy,
+  ScrollStrategyOptions,
 } from '@angular/cdk/overlay';
 import { ComponentPortal } from '@angular/cdk/portal';
 import {
@@ -12,6 +13,7 @@ import {
   Injector,
   Input,
 } from '@angular/core';
+import { first, tap } from 'rxjs';
 import { TooltipComponent } from 'src/app/shared/components/tooltip/tooltip.component';
 import { TOOLTIP_DATA } from '../../providers/tooltip-data.provider';
 
@@ -23,12 +25,13 @@ export class ItemTooltipDirective {
   @Input(`itemId`) itemId?: string;
 
   private _overlayRef!: OverlayRef;
-
+  private lastClickedElement?: ElementRef;
   constructor(
     private _overlay: Overlay,
     private _overlayPositionBuilder: OverlayPositionBuilder,
     private _elementRef: ElementRef,
-    private _injector: Injector
+    private _injector: Injector,
+    private readonly _sso: ScrollStrategyOptions
   ) {}
 
   ngOnInit(): void {
@@ -48,11 +51,19 @@ export class ItemTooltipDirective {
         },
       ]);
 
-    this._overlayRef = this._overlay.create({ positionStrategy });
+    this._overlayRef = this._overlay.create({
+      positionStrategy,
+      hasBackdrop: true,
+      scrollStrategy: this._sso.reposition(),
+    });
   }
 
-  @HostListener('mouseenter')
-  show() {
+  @HostListener('click')
+  toggle() {
+    if (this._overlayRef.hasAttached()) {
+      // return;
+    }
+
     const injector = Injector.create({
       parent: this._injector,
       providers: [{ provide: TOOLTIP_DATA, useValue: this.itemId }],
@@ -60,11 +71,16 @@ export class ItemTooltipDirective {
 
     const portal = new ComponentPortal(TooltipComponent, null, injector);
     this._overlayRef.attach(portal);
-  }
-
-  @HostListener('mouseleave')
-  hide() {
-    this.closeToolTip();
+    this._overlayRef
+      .backdropClick()
+      .pipe(
+        tap(console.log),
+        first(),
+        tap(() => {
+          this.closeToolTip();
+        })
+      )
+      .subscribe();
   }
 
   ngOnDestroy() {

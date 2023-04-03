@@ -1,0 +1,9 @@
+@import "abstracts/variables";
+
+.item {
+  cursor: pointer;
+  transition-duration: 200ms;
+  &:hover {
+    color: $yelough;
+  }
+}

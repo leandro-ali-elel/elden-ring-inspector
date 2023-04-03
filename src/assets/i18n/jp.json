@@ -59,6 +59,12 @@
         "name": "青雫の聖杯瓶",
         "description": "<p>かつて恵みの雫を受領したという黄金の聖杯を模した瓶</p><p>青色の雫を満たし、使用によりFPを回復するまた、祝福で休むことで補充される</p<p>墓地に流れ着き、ただ死んでいくはずの体はおそらく、これによって癒されたのだろうエルデンリングを求めるために</p>"
       }
+    },
+    "maps": {
+      "mapLakeOfRot": {
+        "name": "Map (Lake of Rot)",
+        "description": "A great lake of standing water downstream of the Ainsel River. It is said that the divine essence of an outer god is sealed away in this land."
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { TranslocoModule } from '@ngneat/transloco';
 import { TOOLTIP_DATA } from 'src/app/core/providers/tooltip-data.provider';
 import { Item, ITEMS } from 'src/app/db/item';
 
@@ -9,10 +9,12 @@ import { Item, ITEMS } from 'src/app/db/item';
   styleUrls: ['./tooltip.component.scss'],
 })
 export class TooltipComponent {
-  public data?: Item;
+  public data!: Item;
+  public languageKey?: string;
   private injectedData = inject(TOOLTIP_DATA);
 
   protected ngOnInit(): void {
-    this.data = ITEMS.find((item) => item.key === this.injectedData);
+    this.data = ITEMS.find((item) => item.key === this.injectedData)!;
+    this.languageKey = `items.${this.data.type}.${this.data.key}`;
   }
 }

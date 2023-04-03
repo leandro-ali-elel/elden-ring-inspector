@@ -6,6 +6,7 @@ import { TooltipModule } from '../tooltip/item-tooltip.module';
 @Component({
   selector: 'zanoth-sugar-tool',
   templateUrl: './zanoth-sugar-tool.component.html',
+  styleUrls: ['./zanoth-sugar-tool.component.scss'],
   imports: [CommonModule, TooltipModule, SanitizeModule],
   standalone: true,
 })

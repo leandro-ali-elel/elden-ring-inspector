@@ -54,6 +54,12 @@
         "name": "Botella del Cáliz de la Gota Azul",
         "description": "<p>Una botella con forma de un cáliz dorado que alguna vez recibió gotas de gracia.</p><p>Está llena con gotas azules, restaura MP con cada uso o descansando en una Bendición.</p><p>Quizás el cuerpo que tendría que haber sido arrastrado hacia el cementerio y simplemente haber muerto fue curado con esto, para buscar el Elden Ring.</p>"
       }
+    },
+    "maps": {
+      "mapLakeOfRot": {
+        "name": "Map (Lake of Rot)",
+        "description": "A great lake of standing water downstream of the Ainsel River. It is said that the divine essence of an outer god is sealed away in this land."
+      }
     }
   }
 }

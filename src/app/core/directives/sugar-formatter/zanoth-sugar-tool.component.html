@@ -1,5 +1,6 @@
 <ng-container *ngIf="itemId; else genericText">
   <div
+    class="item"
     zanothwikiTooltip
     [itemId]="itemId"
     [innerHTML]="text | sanitize : 1"

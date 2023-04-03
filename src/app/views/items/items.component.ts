@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CONSUMABLES } from 'src/app/db/consumables';
+import { ITEMS } from 'src/app/db/item';
 
 @Component({
   selector: 'app-items',
@@ -7,6 +7,6 @@ import { CONSUMABLES } from 'src/app/db/consumables';
   styleUrls: ['./items.component.scss'],
 })
 export class ItemsComponent {
-  protected consumables = CONSUMABLES;
+  protected consumables = ITEMS.filter((item) => item.type === 'consumables');
   protected displayedColumns: string[] = ['icon', 'name', 'description'];
 }

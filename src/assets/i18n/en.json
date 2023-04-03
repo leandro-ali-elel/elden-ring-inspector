@@ -55,6 +55,12 @@
         "name": "Blue Drop Chalice Bottle",
         "description": "<p>A bottle in the shape of a golden chalice that once received drops of grace.</p><p>Filled with blue drops, FP is recovered through use, also replenished by resting in blessings.</p><p>The body that should have washed up in the graveyard and simply died was perhaps healed by this, to seek the Elden ring</p>"
       }
+    },
+    "maps": {
+      "mapLakeOfRot": {
+        "name": "Map (Lake of Rot)",
+        "description": "A great lake of standing water downstream of the Ainsel River. It is said that the divine essence of an outer god is sealed away in this land."
+      }
     }
   }
 }
