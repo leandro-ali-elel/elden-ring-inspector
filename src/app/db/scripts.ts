@@ -3,19 +3,25 @@ export const SCRIPTS: Script[] = [
     id: 'cronology',
     title: 'Cronología: Historia Completa',
     content: `
-    <p>El Grande se Fragmenta</p>
-    <p>Los Dos Dedos comienzan a manifestar la Voluntad de la Gran Voluntad</p>
-    <p>Llega la Época de los Dragones.</p>
-    <p>Los dos dedos le dan inteligencia a las bestias para que les sirvan a los dragones.</p>
-    <p>El Dios Dragon obtiene el Elden Ring</p>
-    <p>El Dios Dragón desaparece. Placidusax entra en un letargo.</p>
-    <p>Los Dragones de hielo luchan contra los gigantes de fuego y son expulsados de las montañas.</p>
-    <p>Un astrónomo observa la corriente primigenia, desatando una lluvia de Piedras Refulgentes </p>
-    <p>Un espadachín sella al Dios Exterior de la Podredumbre Escarlata. <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </p>
+    <div>El Grande se Fragmenta</div>
+    <div><zanothwikitooltip item-id="keyFingerSlayerBlade">Los Dos Dedos, vasallos de la Gran Voluntad</zanothwikitooltip>, comienzan a manifestar su divina voluntad.</div>
+    <div>Llega la Época de los Dragones.</div>
+    <div>Los dos dedos le dan inteligencia a las bestias para que les sirvan a los dragones.</div>
+    <div>El Dios Dragon obtiene el Elden Ring</div>
+    <div>El Dios Dragón desaparece. Placidusax entra en un letargo.</div>
 
-    <p>Farum Azula es destruído por un meteorito (el de la elden beast?)</p>
-    <p><strong>CIUDAD ETERNA SHIT</strong></p>
-    <p>Se planta el Erdtree extrayendo energía del Crisol Primigenio. Se sella Muerte Destinada. Se crea la Orden Dorada.</p>
+    <div>Los Dragones de hielo luchan contra los gigantes de fuego y son expulsados de las montañas.</div>
+    <div>Un astrónomo observa la corriente primigenia, desatando una lluvia de Piedras Refulgentes </div>
+    <div>Un espadachín sella al Dios Exterior de la Podredumbre Escarlata. <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </div>
+
+    <div>Farum Azula es destruído por un meteorito (el de la elden beast?)</div>
+    <div><zanothwikitooltip item-id="mapSiofraRiver">La Ciudad Eterna florece.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="keyFingerSlayerBlade">La Ciudad Eterna "traiciona" a la Gran Voluntad.</zanothwikitooltip></div>
+    <div>Se planta el Erdtree extrayendo energía del Crisol Primigenio. Se sella Muerte Destinada. Se crea la Orden Dorada.</div>
+    <div><zanothwikitooltip character-id="enia" dialogue-id="enia_1">Las lectoras de dedos se convierten en la voz de los dos dedos</<zanothwikitooltip></div>
+
+    <div><zanothwikitooltip item-id="mapDragonBarrow">Los dragones escapan de la podredumbre escarlata en Caelid y se refugian en las tierras del norte, dándole el nombre de Túmulo del Dragón.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="keyDeathroot">La raíz morturia comienza a extenderse por las raíces del Árbol Áureo, creando a <i>Aquellos que viven en la muerte</i>.</zanothwikitooltip></div>
     `,
   },
   {

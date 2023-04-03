@@ -10,14 +10,40 @@ export const ITEMS: Item[] = [
     type: 'consumables',
   },
   {
+    key: 'keyDeathroot',
+    icon: 'key_deathroot.png',
+    type: 'keys',
+  },
+  {
+    key: 'keyFingerSlayerBlade',
+    icon: 'key_fingerslayer_blade.png',
+    type: 'keys',
+  },
+  {
+    key: 'keyDeathroot',
+    icon: 'key_deathroot.png',
+    type: 'keys',
+  },
+  {
+    key: 'mapDragonBarrow',
+    icon: 'map_dragon_barrow.png',
+    type: 'maps',
+  },
+  {
     key: 'mapLakeOfRot',
     icon: 'map_lake_of_rot.png',
+    type: 'maps',
+  },
+  {
+    key: 'mapSiofraRiver',
+    icon: 'map_siofra_river.webp',
     type: 'maps',
   },
 ];
 
 export interface Item {
   key: string;
-  type: 'maps' | 'consumables' | 'ashes';
+  type: ItemType;
   icon?: string;
 }
+export type ItemType = 'maps' | 'consumables' | 'ashes' | 'keys';

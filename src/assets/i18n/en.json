@@ -45,6 +45,16 @@
       "description": "<p>Summons 5 wandering noble spirits</p><p>The spirits of the nobles who wandered in and out the Lands Between, they must have been looking for something, but now they seem to have forgotten what it is.</p>"
     }
   },
+  "characters": {
+    "enia": {
+      "name": "Enia, the Finger Reader",
+      "dialogue": {
+        "enia_0": "Are you the new Tarnished? You've done well. I am Enia, the Finger Reader",
+        "enia_1": "I interpret the words of the Fingers, envoys to the Greater Will",
+        "enia_2": "<p>Look there. The Fingers tremble. To welcome you, shardbearer. Let their wisdom wash over you:</p>"
+      }
+    }
+  },
   "items": {
     "consumables": {
       "consumableFlaskOfCrimsonTears": {
@@ -56,10 +66,28 @@
         "description": "<p>A bottle in the shape of a golden chalice that once received drops of grace.</p><p>Filled with blue drops, FP is recovered through use, also replenished by resting in blessings.</p><p>The body that should have washed up in the graveyard and simply died was perhaps healed by this, to seek the Elden ring</p>"
       }
     },
+    "keys": {
+      "keyDeathroot": {
+        "name": "Deathroot",
+        "description": "<p>A source that gives rise to Those Who Live in Death.</p><p>The beast clergyman, found at Bestial Sanctum in the distant east, collects and devours these roots.</p><p>On the night of the dire plot the stolen Rune of Death enabled the first Death of a demigod. Later, the Rune of Death spread across the Lands Between through the underground roots of the Greattree, sprouting in the form of Deathroot.</p>"
+      },
+      "keyFingerSlayerBlade": {
+        "name": "Finger Slayer Blade",
+        "description": "<p>The hidden treasure of the Eternal City of Nokron; a blade said to have been born of a corpse.</p><p>This blood-drenched fetish is proof of the high treason committed by the Eternal City and symbolizes its downfall.</p><p>Cannot be wielded by those without a fate, but is said to be able to harm the Greater Will and its vassals.</p>"
+      }
+    },
     "maps": {
+      "mapDragonBarrow": {
+        "name": "Map (Dragon Barrow)",
+        "description": "The dragons that escaped the scarlet rot and made nest of the plateau to Caelid's north. Thus it was named 'Dragonbarrow', and none dare to enter."
+      },
       "mapLakeOfRot": {
         "name": "Map (Lake of Rot)",
         "description": "A great lake of standing water downstream of the Ainsel River. It is said that the divine essence of an outer god is sealed away in this land."
+      },
+      "mapSiofraRiver": {
+        "name": "Map (Siofra River)",
+        "description": "Two great rivers flow beneath the Lands Between, the Siofra and the Ainsel. This vast region is said to be the grave of civilizations that flourished before the Erdtree."
       }
     }
   }

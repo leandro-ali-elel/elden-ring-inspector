@@ -1,5 +1,12 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnChanges,
+  OnInit,
+  SimpleChanges,
+} from '@angular/core';
+import { ItemType } from 'src/app/db/item';
 import { SanitizeModule } from 'src/app/shared/pipes/sanitization/sanitize.module';
 import { TooltipModule } from '../tooltip/item-tooltip.module';
 
@@ -10,8 +17,14 @@ import { TooltipModule } from '../tooltip/item-tooltip.module';
   imports: [CommonModule, TooltipModule, SanitizeModule],
   standalone: true,
 })
-export class ZanothSugarToolComponent {
-  @Input() public itemId = '';
-  @Input() public type: string | '#text' | 'zanothwikitooltip' = '#text';
-  @Input() public text: string = '';
+export class ZanothSugarToolComponent implements OnInit {
+  @Input() public node!: ChildNode;
+
+  public childNodeIterable: Array<ChildNode | any> = [];
+
+  public ngOnInit() {
+    this.node.childNodes.forEach((node) => {
+      this.childNodeIterable.push(node);
+    });
+  }
 }

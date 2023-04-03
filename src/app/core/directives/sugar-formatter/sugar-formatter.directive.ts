@@ -24,23 +24,12 @@ export class SugarFormatterDirective {
 
   private renderNodes(nodes: NodeListOf<ChildNode>): void {
     nodes.forEach((node) => {
-      if (node.childNodes.length > 1) {
-        this.renderNodes(node.childNodes);
-        return;
-      }
+      const componentRef =
+        this.viewContainerRef.createComponent<ZanothSugarToolComponent>(
+          ZanothSugarToolComponent
+        );
 
-      const componentRef = this.viewContainerRef.createComponent(
-        ZanothSugarToolComponent
-      );
-      (componentRef.instance as ZanothSugarToolComponent).type = node.nodeName;
-      (componentRef.instance as ZanothSugarToolComponent).text =
-        node.textContent!;
-      if (node.nodeName === 'ZANOTHWIKITOOLTIP') {
-        const namedMap: NamedNodeMap = (node as any)['attributes'];
-        componentRef.instance.itemId = namedMap.getNamedItem('item-id')?.value!;
-      }
+      componentRef.instance.node = node;
     });
   }
 }
-
-export type NODES = 'ZANOTHWIKITOOLTIP' | any;

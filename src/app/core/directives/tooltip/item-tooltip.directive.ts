@@ -22,10 +22,10 @@ import { TOOLTIP_DATA } from '../../providers/tooltip-data.provider';
 })
 export class ItemTooltipDirective {
   @Input() showToolTip: boolean = true;
-  @Input(`itemId`) itemId?: string;
+  @Input(`itemId`) itemId?: ChildNode;
 
   private _overlayRef!: OverlayRef;
-  private lastClickedElement?: ElementRef;
+
   constructor(
     private _overlay: Overlay,
     private _overlayPositionBuilder: OverlayPositionBuilder,
@@ -74,7 +74,6 @@ export class ItemTooltipDirective {
     this._overlayRef
       .backdropClick()
       .pipe(
-        tap(console.log),
         first(),
         tap(() => {
           this.closeToolTip();

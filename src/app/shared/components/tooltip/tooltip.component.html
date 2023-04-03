@@ -1,9 +1,26 @@
 <div class="tooltip-container">
-  <div class="icon">
-    <img [src]="'assets/images/items/' + data.type + '/' + data.icon" alt="" />
-  </div>
-  <div class="content">
-    <h1>{{ languageKey + ".name" | transloco }}</h1>
-    <div [innerHTML]="languageKey + '.description' | transloco"></div>
-  </div>
+  <ng-container *ngIf="mode === 'item'; else dialogue">
+    <div class="icon">
+      <img
+        [src]="'assets/images/items/' + data.type + '/' + data.icon"
+        alt=""
+      />
+    </div>
+    <div class="content">
+      <h2>{{ languageKey + ".name" | transloco }}</h2>
+      <div [innerHTML]="languageKey + '.description' | transloco"></div>
+    </div>
+  </ng-container>
+  <ng-template #dialogue>
+    <!-- <div class="icon">
+      <img
+        [src]="'assets/images/characters/' + data.type + '/' + data.icon"
+        alt=""
+      />
+    </div> -->
+    <div class="content">
+      <h2>{{ languageKey | transloco }}</h2>
+      <i [innerHTML]="dialogueKey | transloco"></i>
+    </div>
+  </ng-template>
 </div>

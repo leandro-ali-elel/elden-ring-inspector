@@ -1,17 +1,25 @@
-<ng-container [ngSwitch]="type">
-  <ng-container *ngSwitchCase="'P'">
-    <p [innerHTML]="text | sanitize : 1"></p>
+<div>
+  <!-- TODO: Agregar soporte para nesteo de zanothwikitooltip -->
+  <ng-container *ngFor="let childNode of childNodeIterable">
+    <ng-container [ngSwitch]="childNode.nodeName">
+      <ng-container *ngSwitchCase="'I'">
+        <i [innerHTML]="childNode.innerText! | sanitize : 1"></i>
+      </ng-container>
+      <ng-container *ngSwitchCase="'B'">
+        <b [innerHTML]="childNode.innerText! | sanitize : 1"></b>
+      </ng-container>
+      <ng-container *ngSwitchCase="'#text'">
+        <span [innerHTML]="childNode.nodeValue! | sanitize : 1"></span>
+      </ng-container>
+
+      <ng-container *ngSwitchCase="'ZANOTHWIKITOOLTIP'">
+        <span
+          class="item"
+          zanothwikiTooltip
+          [itemId]="childNode"
+          [innerHTML]="childNode.innerText! | sanitize : 1"
+        ></span>
+      </ng-container>
+    </ng-container>
   </ng-container>
-  <ng-container *ngSwitchCase="'#text'">
-    <span [innerHTML]="text | sanitize : 1"></span>
-  </ng-container>
-  <ng-container *ngSwitchCase="'ZANOTHWIKITOOLTIP'">
-    <span
-      class="item"
-      zanothwikiTooltip
-      [itemId]="itemId"
-      [innerHTML]="text | sanitize : 1"
-    ></span>
-  </ng-container>
-  <div *ngSwitchDefault></div>
-</ng-container>
+</div>
