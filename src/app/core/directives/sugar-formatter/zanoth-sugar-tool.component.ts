@@ -12,5 +12,6 @@ import { TooltipModule } from '../tooltip/item-tooltip.module';
 })
 export class ZanothSugarToolComponent {
   @Input() public itemId = '';
-  @Input() public text = '';
+  @Input() public type: string | '#text' | 'zanothwikitooltip' = '#text';
+  @Input() public text: string = '';
 }

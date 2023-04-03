@@ -19,17 +19,26 @@ export class SugarFormatterDirective {
   ngOnInit(): void {
     const domParser = new DOMParser();
     const html = domParser.parseFromString(this.sugarFormatter, 'text/html');
-    html.body.childNodes.forEach((node) => {
-      const namedMap: NamedNodeMap = (node as any)['attributes'];
+    this.renderNodes(html.body.childNodes);
+  }
+
+  private renderNodes(nodes: NodeListOf<ChildNode>): void {
+    nodes.forEach((node) => {
+      if (node.childNodes.length > 1) {
+        this.renderNodes(node.childNodes);
+        return;
+      }
+
       const componentRef = this.viewContainerRef.createComponent(
         ZanothSugarToolComponent
       );
-      if (namedMap?.getNamedItem('item-id')) {
-        componentRef.instance.itemId = namedMap.getNamedItem('item-id')?.value!;
-      }
+      (componentRef.instance as ZanothSugarToolComponent).type = node.nodeName;
       (componentRef.instance as ZanothSugarToolComponent).text =
         node.textContent!;
-      return;
+      if (node.nodeName === 'ZANOTHWIKITOOLTIP') {
+        const namedMap: NamedNodeMap = (node as any)['attributes'];
+        componentRef.instance.itemId = namedMap.getNamedItem('item-id')?.value!;
+      }
     });
   }
 }

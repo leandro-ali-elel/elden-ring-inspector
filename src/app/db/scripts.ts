@@ -11,14 +11,11 @@ export const SCRIPTS: Script[] = [
     <p>El Dios Dragón desaparece. Placidusax entra en un letargo.</p>
     <p>Los Dragones de hielo luchan contra los gigantes de fuego y son expulsados de las montañas.</p>
     <p>Un astrónomo observa la corriente primigenia, desatando una lluvia de Piedras Refulgentes </p>
-    <p>Un espadachín sella al Dios Exterior de la Podredumbre Escarlata. </p>
-    <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip>
+    <p>Un espadachín sella al Dios Exterior de la Podredumbre Escarlata. <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </p>
+
     <p>Farum Azula es destruído por un meteorito (el de la elden beast?)</p>
     <p><strong>CIUDAD ETERNA SHIT</strong></p>
     <p>Se planta el Erdtree extrayendo energía del Crisol Primigenio. Se sella Muerte Destinada. Se crea la Orden Dorada.</p>
-  
-
-
     `,
   },
   {

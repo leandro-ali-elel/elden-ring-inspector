@@ -1,11 +1,17 @@
-<ng-container *ngIf="itemId; else genericText">
-  <div
-    class="item"
-    zanothwikiTooltip
-    [itemId]="itemId"
-    [innerHTML]="text | sanitize : 1"
-  ></div>
+<ng-container [ngSwitch]="type">
+  <ng-container *ngSwitchCase="'P'">
+    <p [innerHTML]="text | sanitize : 1"></p>
+  </ng-container>
+  <ng-container *ngSwitchCase="'#text'">
+    <span [innerHTML]="text | sanitize : 1"></span>
+  </ng-container>
+  <ng-container *ngSwitchCase="'ZANOTHWIKITOOLTIP'">
+    <span
+      class="item"
+      zanothwikiTooltip
+      [itemId]="itemId"
+      [innerHTML]="text | sanitize : 1"
+    ></span>
+  </ng-container>
+  <div *ngSwitchDefault></div>
 </ng-container>
-<ng-template #genericText>
-  <div [innerHTML]="text | sanitize : 1"></div>
-</ng-template>
