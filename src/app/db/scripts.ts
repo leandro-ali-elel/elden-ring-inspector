@@ -21,7 +21,7 @@ export const SCRIPTS: Script[] = [
 
     <div><zanothwikitooltip character-id="enia" dialogue-id="enia_1">Las lectoras de dedos se convierten en la voz de los dos dedos</<zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="mapSiofraRiver">La Ciudad Eterna florece.</zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="armorAlbinauricMask">Los albináuricos son creados para tener cuerpos divinos.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="armorAlbinauricMask">Los albináuricos son creados para tener cuerpos divinos.</zanothwikitooltip>. Pareciera que los nox estaban intentando bajo todos los medios crear numen... o algo así.</div>
     <div><zanothwikitooltip item-id="keyFingerSlayerBlade">La Ciudad Eterna "traiciona" a la Gran Voluntad y crea un arma para matar a los Dos Dedos.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="keyMemoryStone">Aparentemente, la Luna Negra de una Ciudad Eterna es destruída.</zanothwikitooltip> <zanothwikitooltip item-id="talismanMoonOfNokstella">Sin dudas esta era la Luna de Nokstella.</<zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="remembranceAstelNaturalBorn">Astel destruye una Ciudad Eterna y les roba el cielo</zanothwikitooltip></div>

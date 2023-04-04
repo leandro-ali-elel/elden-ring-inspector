@@ -3,9 +3,11 @@
 .item {
   cursor: pointer;
   transition-duration: 200ms;
-  &:hover {
-    color: $yelough;
-  }
+  color: $yelough;
+
+  // &:hover {
+  //   color: $yelough;
+  // }
 }
 
 :host {
