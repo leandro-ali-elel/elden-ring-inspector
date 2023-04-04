@@ -16,7 +16,7 @@ export const SCRIPTS: Script[] = [
     
     <div><zanothwikitooltip item-id="talismanBlueDancerCharm">Según una leyenda, un hada le otorgó a un hombre ciego una espada. Espada en mano, el espadachín selló al Dios Exterior de la Podredumbre Escarlata.</zanothwikitooltip> <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </div>
 
-    <div>Farum Azula es destruído por un meteorito (el de la elden beast?)</div>
+    <div><zanothwikitooltip item-id="weaponRuinsGreatsword">Farum Azula es golpeado por un meteorito. Quizás por esa razón comienza a derrumbarse. Este meteorito habrá sido bastante grande, ¿quizás fue el de la Elden Beast?</zanothwikitooltip></div>
 
     <div><zanothwikitooltip character-id="enia" dialogue-id="enia_1">Las lectoras de dedos se convierten en la voz de los dos dedos</<zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="mapSiofraRiver">La Ciudad Eterna florece.</zanothwikitooltip></div>
@@ -28,7 +28,9 @@ export const SCRIPTS: Script[] = [
     <div><zanothwikitooltip item-id="weaponSacredRelicSword">Se designa que Marika debe vivir por siempre.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="talismanGodfreyIcon">Godfrey jura convertirse en Elden Lord. Para concretar la ceremonia, la bestia Regente Serosh suprime su lujuria por la batalla. </zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="greatRuneGodrick">Godfrey y Marika tienen hijos, y forman el Linaje Dorado, los primeros semidioses</zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="weaponBlackKnife">Godwyn es asesinado por las Cuchillas Negras en la Noche del Complot. Sus armas infundidas con el poder de la Runa de la Muerte.</zanothwikitooltip></div>
+
+    <div><zanothwikitooltip item-id="weaponBoltOfGransax">Gransax ataca Leyndell y derrumba los muros, comenzando la guerra contra los Dragones Antiguos.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="weaponBlackKnifeDagger">Godwyn es asesinado por las Cuchillas Negras en la Noche del Complot. Sus armas infundidas con el poder de la Runa de la Muerte.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="weaponGoldenEpitaph">En conmemoración de la muerte de Godwyn se creó una espada, y las palabras de Miquella le fueron grabadas: "Oh, hermano, Señor hermano, muere una verdadera muerte." Mostrando al simpatía de Miquella por la condición de Godwyn.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="keyDeathroot">La raíz morturia comienza a extenderse por las raíces del Árbol Áureo, creando a <i>Aquellos que viven en la muerte</i>.</zanothwikitooltip></div>
 

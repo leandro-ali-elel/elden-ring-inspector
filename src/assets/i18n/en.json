@@ -135,6 +135,10 @@
       }
     },
     "weapons": {
+      "weaponBoltOfGransax": {
+        "name": "Bolt of Gransax",
+        "description": "<p>A great ancient dragon, Gransax once rained calamity upon the Royal Capital - the only time in historical record that Leyndell's walls have fallen. This marked the dawn of the war against dragons.</p>"
+      },
       "weaponBlackKnife": {
         "name": "Black Knife",
         "description": "<p>Dagger once belonging to one of the assassins who murdered Godwyn the Golden on the Night of the Black Knives.<p><p>A ritual performed on the oddly misshapen blade imbued it with the power of the stolen Rune of Death.</p>"
@@ -146,6 +150,10 @@
       "weaponGoldenEpitaph": {
         "name": "Golden Epitaph",
         "description": "<p>A sword made to commemorate the death of Godwyn the Golden, first of the demigods to die.</p><p>Infused with the humble prayer of a young boy; 'O brother, lord brother, please die a true death.'</p>"
+      },
+      "weaponRuinsGreatsword": {
+        "name": "Ruins Greatsword",
+        "description": "<p>Originally rubble from a ruin which fell from the sky, this surviving fragment was honed into a weapon.</p><p>One of the legendary armaments.</p><p>The ruin it came from crumbled when struck by a meteorite, as such this weapon harbors its destructive power.</p>"
       },
       "weaponSacredRelicSword": {
         "name": "Sacred Relic Sword",

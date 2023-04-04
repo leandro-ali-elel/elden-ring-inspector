@@ -75,6 +75,11 @@ export const ITEMS: Item[] = [
     type: 'upgrades',
   },
   {
+    key: 'weaponBoltOfGransax',
+    icon: 'weapon_bolt_of_gransax.png',
+    type: 'weapons',
+  },
+  {
     key: 'weaponBlackKnifeDagger',
     icon: 'weapon_black_knife_dagger.png',
     type: 'weapons',
@@ -87,6 +92,11 @@ export const ITEMS: Item[] = [
   {
     key: 'weaponGoldenEpitaph',
     icon: 'weapon_golden_epitaph.png',
+    type: 'weapons',
+  },
+  {
+    key: 'weaponRuinsGreatsword',
+    icon: 'weapon_ruins_greatsword.png',
     type: 'weapons',
   },
   {
