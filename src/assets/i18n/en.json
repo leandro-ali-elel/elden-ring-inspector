@@ -51,7 +51,11 @@
       "dialogue": {
         "enia_0": "Are you the new Tarnished? You've done well. I am Enia, the Finger Reader",
         "enia_1": "I interpret the words of the Fingers, envoys to the Greater Will",
-        "enia_2": "<p>Look there. The Fingers tremble. To welcome you, shardbearer. Let their wisdom wash over you:</p>"
+        "enia_2": "<p>Look there. The Fingers tremble. To welcome you, shardbearer. Let their wisdom wash over you:</p>",
+        "enia_3": "<p>Great Elden Ring, root of the Golden Order. Anchor of all lands, giver of grace, wellspring of all joy. Until it was shattered.</p>",
+        "enia_4": "<p>The tragic corruption of the Order has taken its toll. Across the realm, life lies in ruin. Fallen to pieces. Foul curses and misery spread, unabating.</p>",
+        "enia_5": "<p>But the Greater Will has not abandoned the realm, nor the life that inhabits it. So it is that the Tarnished are guided by grace. Called to act.</p>",
+        "enia_6": "<p>Brave Tarnished, your Great Rune is a handsome shard of the Elden Ring. Seek another of its kind. To become Elden Lord, and restore the Golden Order.</p>"
       }
     }
   },
@@ -66,6 +70,12 @@
         "description": "<p>A bottle in the shape of a golden chalice that once received drops of grace.</p><p>Filled with blue drops, FP is recovered through use, also replenished by resting in blessings.</p><p>The body that should have washed up in the graveyard and simply died was perhaps healed by this, to seek the Elden ring</p>"
       }
     },
+    "greatRunes": {
+      "greatRuneGodrick": {
+        "name": "Godrick's Great Rune",
+        "description": "<p>This Great Rune is known as the anchor ring, found in the center of the Elden Ring.</p><p>The first demigods were The Elden Lord Godfrey and his offspring, the golden lineage.</p>"
+      }
+    },
     "keys": {
       "keyDeathroot": {
         "name": "Deathroot",
@@ -74,6 +84,10 @@
       "keyFingerSlayerBlade": {
         "name": "Finger Slayer Blade",
         "description": "<p>The hidden treasure of the Eternal City of Nokron; a blade said to have been born of a corpse.</p><p>This blood-drenched fetish is proof of the high treason committed by the Eternal City and symbolizes its downfall.</p><p>Cannot be wielded by those without a fate, but is said to be able to harm the Greater Will and its vassals.</p>"
+      },
+      "keyMemoryStone": {
+        "name": "Memory Stone",
+        "description": "<p>Said to be a fragment of the black moon that once hung above the Eternal City.</p>"
       }
     },
     "maps": {
@@ -88,6 +102,46 @@
       "mapSiofraRiver": {
         "name": "Map (Siofra River)",
         "description": "Two great rivers flow beneath the Lands Between, the Siofra and the Ainsel. This vast region is said to be the grave of civilizations that flourished before the Erdtree."
+      }
+    },
+    "remembrances": {
+      "remembranceAstelNaturalBorn": {
+        "name": "Remembrance of Astel, Natural Born of the Void",
+        "description": "A malformed star born in the flightless void far away. Once destroyed an Eternal City and took away their sky. A falling star of ill omen."
+      },
+      "remembranceDragonLord": {
+        "name": "Remembrance of the Dragon Lord",
+        "description": "The Dragonlord whose seat lies at the heart of the storm beyond time is said to have been Elden Lord in the age before the Erdtree. Once his god was fled, the lord continued to await its return."
+      }
+    },
+    "talismans": {
+      "talismanBlueDancerCharm": {
+        "name": "Blue Dancer Charm",
+        "description": "<p>The dancer in blue represents a fairy, who in legend bestowed a flowing sword upon a blind swordsman. Blade in hand, the swordsman sealed away an ancient god — a god that was Rot itself.</p>"
+      },
+      "talismanGodfreyIcon": {
+        "name": "Godfrey Icon",
+        "description": "<p>Godfrey was a ferocious warrior. When he vowed to become a lord, he took the Beast Regent Serosh upon on his back to suppress the ceaseless lust for battle that raged within.</p>"
+      },
+      "talismanMoonOfNokstella": {
+        "name": "Moon of Nokstella",
+        "description": "<p>This talisman represents the lost black moon.</p><p>The moon of Nokstella was the guide of countless stars.</p>"
+      }
+    },
+    "upgrades": {
+      "upgradeAncientDragonSmithingStone": {
+        "name": "Ancient Dragon Smithing Stone",
+        "description": "The Ancient Dragonlord's seat is said to lie beyond time. This stone lightly twists time, allowing the creation of a weapon capable of slaying a god."
+      }
+    },
+    "weapons": {
+      "weaponBlackKnife": {
+        "name": "Black Knife",
+        "description": "<p>Dagger once belonging to one of the assassins who murdered Godwyn the Golden on the Night of the Black Knives.<p><p>A ritual performed on the oddly misshapen blade imbued it with the power of the stolen Rune of Death.</p>"
+      },
+      "weaponCinquedea": {
+        "name": "Cinquedea",
+        "description": "<p>The design celebrates a beast's five fingers, symbolic of the intelligence once granted upon their kind.</p>"
       }
     }
   }

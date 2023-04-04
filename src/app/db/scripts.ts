@@ -6,22 +6,30 @@ export const SCRIPTS: Script[] = [
     <div>El Grande se Fragmenta</div>
     <div><zanothwikitooltip item-id="keyFingerSlayerBlade">Los Dos Dedos, vasallos de la Gran Voluntad</zanothwikitooltip>, comienzan a manifestar su divina voluntad.</div>
     <div>Llega la Época de los Dragones.</div>
-    <div>Los dos dedos le dan inteligencia a las bestias para que les sirvan a los dragones.</div>
-    <div>El Dios Dragon obtiene el Elden Ring</div>
-    <div>El Dios Dragón desaparece. Placidusax entra en un letargo.</div>
+    <div><zanothwikitooltip item-id="weaponCinquedea">Se les otorga inteligencia a las bestias, simbolizada por sus cinco dedos.</zanothwikitooltip> Los dos dedos le dan inteligencia a las bestias para que les sirvan a los dragones.</div>
+    <div>El Dios Dragon obtiene el Elden Ring. <zanothwikitooltip item-id="remembranceDragonLord">Su pareja, el Elden Lord más antiguo registrado, Placidusax, el Señor Dragon,</zanothwikitooltip><zanothwikitooltip item-id="upgradeAncientDragonSmithingStone"> era un dragón con escamas de oro que tenía su trono en el Corazón de la Tormenta, un lugar "más allá del tiempo". Quizás por su permanencia en ese lugar sus escamas también poseían la propiedad de torcer el tiempo.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="remembranceDragonLord">El Dios Dragón desaparece sin dejar rastro. Placidusax entra en un letargo indefinido esperando la vuelta de su Dios.</zanothwikitooltip></div>
 
     <div>Los Dragones de hielo luchan contra los gigantes de fuego y son expulsados de las montañas.</div>
     <div>Un astrónomo observa la corriente primigenia, desatando una lluvia de Piedras Refulgentes </div>
-    <div>Un espadachín sella al Dios Exterior de la Podredumbre Escarlata. <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </div>
+    
+    <div><zanothwikitooltip item-id="talismanBlueDancerCharm">Según una leyenda, un hada le otorgó a un hombre ciego una espada. Espada en mano, el espadachín selló al Dios Exterior de la Podredumbre Escarlata.</zanothwikitooltip> <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </div>
 
     <div>Farum Azula es destruído por un meteorito (el de la elden beast?)</div>
-    <div><zanothwikitooltip item-id="mapSiofraRiver">La Ciudad Eterna florece.</zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="keyFingerSlayerBlade">La Ciudad Eterna "traiciona" a la Gran Voluntad.</zanothwikitooltip></div>
-    <div>Se planta el Erdtree extrayendo energía del Crisol Primigenio. Se sella Muerte Destinada. Se crea la Orden Dorada.</div>
+
     <div><zanothwikitooltip character-id="enia" dialogue-id="enia_1">Las lectoras de dedos se convierten en la voz de los dos dedos</<zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="mapSiofraRiver">La Ciudad Eterna florece.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="keyFingerSlayerBlade">La Ciudad Eterna "traiciona" a la Gran Voluntad y crea un arma para matar a los Dos Dedos.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="keyMemoryStone">Aparentemente, la Luna Negra de una Ciudad Eterna es destruída.</zanothwikitooltip> <zanothwikitooltip item-id="talismanMoonOfNokstella">Sin dudas esta era la Luna de Nokstella.</<zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="remembranceAstelNaturalBorn">Astel destruye una Ciudad Eterna y les roba el cielo</zanothwikitooltip></div>
+    <div>Se planta el Erdtree extrayendo energía del Crisol Primigenio. Se sella Muerte Destinada. Se crea la Orden Dorada.</div>
+    
+    <div><zanothwikitooltip item-id="talismanGodfreyIcon">Godfrey jura convertirse en Elden Lord. Para concretar la ceremonia, la bestia Regente Serosh suprime su lujuria por la batalla. </zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="greatRuneGodrick">Godfrey y Marika tienen hijos, y forman el Linaje Dorado, los primeros semidioses</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="weaponBlackKnife">Godwyn es asesinado por las Cuchillas Negras en la Noche del Complot. Sus armas infundidas con el poder de la Runa de la Muerte.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="keyDeathroot">La raíz morturia comienza a extenderse por las raíces del Árbol Áureo, creando a <i>Aquellos que viven en la muerte</i>.</zanothwikitooltip></div>
 
     <div><zanothwikitooltip item-id="mapDragonBarrow">Los dragones escapan de la podredumbre escarlata en Caelid y se refugian en las tierras del norte, dándole el nombre de Túmulo del Dragón.</zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="keyDeathroot">La raíz morturia comienza a extenderse por las raíces del Árbol Áureo, creando a <i>Aquellos que viven en la muerte</i>.</zanothwikitooltip></div>
     `,
   },
   {
