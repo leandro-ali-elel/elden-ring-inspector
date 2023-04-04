@@ -14,12 +14,6 @@
       "jp": "Japanese"
     }
   },
-  "armors": {
-    "armorAlbinauricMask": {
-      "name": "Albinauric Mask",
-      "description": "<p>Made from the largely unaltered hide of a young Albinauric.</p><p>Raises arcane, but reduces the HP recovery effects of the Flask of Crimson Tears.</p><p>A far cry from godskin, this Albinauric hide mask is the product of malicious mockery."
-    }
-  },
   "ashes": {
     "blackKnifeTiche": {
       "name": "Black Knife Tiche ashes",
@@ -65,6 +59,24 @@
     }
   },
   "items": {
+    "armors": {
+      "armorAlbinauricMask": {
+        "name": "Albinauric Mask",
+        "description": "<p>Made from the largely unaltered hide of a young Albinauric.</p><p>Raises arcane, but reduces the HP recovery effects of the Flask of Crimson Tears.</p><p>A far cry from godskin, this Albinauric hide mask is the product of malicious mockery."
+      },
+      "armorAstrologerSet": {
+        "name": "Astrologer Set",
+        "description": "<p>They read fate in the stars, and are said to be heirs of the glintstone sorcerers.</p><p>But alas, the night sky no longer cradles fate.</p>"
+      },
+      "armorBlackFlameMonkSet": {
+        "name": "Black-Flame Monk Set",
+        "description": "<p>The Blackflame Monks, enthralled by the god-slaying black flame, became traitors, abandoning their posts as guardians. The seduction of a taboo is never easily spurned.</p>"
+      },
+      "armorBlackKnifeHood": {
+        "name": "Black Knife Hood",
+        "description": "<p>The assassins that carried out the deeds of the Night of the Black Knives were all women, and rumored to be Numen who had close ties with Marika herself.</p>"
+      }
+    },
     "consumables": {
       "consumableFlaskOfCrimsonTears": {
         "name": "Scarlet Drop Chalice Bottle",

@@ -4,7 +4,16 @@ export const ITEMS: Item[] = [
     icon: 'armor_albinauric_mask.png',
     type: 'armors',
   },
-
+  {
+    key: 'armorAstrologerSet',
+    icon: 'armor_astrologer_set.png',
+    type: 'armors',
+  },
+  {
+    key: 'armorBlackKnifeHood',
+    icon: 'armor_black_knife_hood.png',
+    type: 'armors',
+  },
   {
     key: 'consumableFlaskOfCrimsonTears',
     icon: 'flask_of_crimson_tears.png',
@@ -91,8 +100,8 @@ export const ITEMS: Item[] = [
     type: 'weapons',
   },
   {
-    key: 'weaponBlackKnifeDagger',
-    icon: 'weapon_black_knife_dagger.png',
+    key: 'weaponBlackKnife',
+    icon: 'weapon_black_knife.png',
     type: 'weapons',
   },
   {

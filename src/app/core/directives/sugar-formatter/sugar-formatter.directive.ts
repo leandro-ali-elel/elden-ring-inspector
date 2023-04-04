@@ -19,6 +19,7 @@ export class SugarFormatterDirective {
   ngOnInit(): void {
     const domParser = new DOMParser();
     const html = domParser.parseFromString(this.sugarFormatter, 'text/html');
+    console.log(html.body.childNodes)
     this.renderNodes(html.body.childNodes);
   }
 
