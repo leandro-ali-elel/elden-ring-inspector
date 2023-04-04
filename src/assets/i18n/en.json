@@ -14,7 +14,12 @@
       "jp": "Japanese"
     }
   },
-
+  "armors": {
+    "armorAlbinauricMask": {
+      "name": "Albinauric Mask",
+      "description": "<p>Made from the largely unaltered hide of a young Albinauric.</p><p>Raises arcane, but reduces the HP recovery effects of the Flask of Crimson Tears.</p><p>A far cry from godskin, this Albinauric hide mask is the product of malicious mockery."
+    }
+  },
   "ashes": {
     "blackKnifeTiche": {
       "name": "Black Knife Tiche ashes",
@@ -123,6 +128,10 @@
         "name": "Godfrey Icon",
         "description": "<p>Godfrey was a ferocious warrior. When he vowed to become a lord, he took the Beast Regent Serosh upon on his back to suppress the ceaseless lust for battle that raged within.</p>"
       },
+      "talismanMarikasScarseal": {
+        "name": "Godfrey Icon",
+        "description": "<p>An eye engraved with an Elden Rune.</p><p>Said to be the seal of Queen Marika.</p><p>These seals represent the lifelong duty of those chosen by the gods.</p>"
+      },
       "talismanMoonOfNokstella": {
         "name": "Moon of Nokstella",
         "description": "<p>This talisman represents the lost black moon.</p><p>The moon of Nokstella was the guide of countless stars.</p>"
@@ -150,6 +159,10 @@
       "weaponGoldenEpitaph": {
         "name": "Golden Epitaph",
         "description": "<p>A sword made to commemorate the death of Godwyn the Golden, first of the demigods to die.</p><p>Infused with the humble prayer of a young boy; 'O brother, lord brother, please die a true death.'</p>"
+      },
+      "weaponGravelStoneSeal": {
+        "name": "Gravel Stone Seal",
+        "description": "<p>Sacred seal made from Gravel Stone thought to be an ancient dragon scale. Enhances Dragon Cult incantations of the Royal Capital.</p><p>The worship of the ancient dragons does not conflict with belief in the Erdtree. After all, this seal, and lightning itself, are both imbued with gold.</p>"
       },
       "weaponRuinsGreatsword": {
         "name": "Ruins Greatsword",

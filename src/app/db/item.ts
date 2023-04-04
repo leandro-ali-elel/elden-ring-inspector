@@ -1,5 +1,11 @@
 export const ITEMS: Item[] = [
   {
+    key: 'armorAlbinauricMask',
+    icon: 'armor_albinauric_mask.png',
+    type: 'armors',
+  },
+
+  {
     key: 'consumableFlaskOfCrimsonTears',
     icon: 'flask_of_crimson_tears.png',
     type: 'consumables',
@@ -65,6 +71,11 @@ export const ITEMS: Item[] = [
     type: 'talismans',
   },
   {
+    key: 'talismanMarikasScarseal',
+    icon: 'talisman_marikas_scarseal.png',
+    type: 'talismans',
+  },
+  {
     key: 'talismanMoonOfNokstella',
     icon: 'talisman_moon_of_nokstella.png',
     type: 'talismans',
@@ -95,6 +106,11 @@ export const ITEMS: Item[] = [
     type: 'weapons',
   },
   {
+    key: 'weaponGravelStoneSeal',
+    icon: 'weapon_gravel_stone_seal.png',
+    type: 'weapons',
+  },
+  {
     key: 'weaponRuinsGreatsword',
     icon: 'weapon_ruins_greatsword.png',
     type: 'weapons',
@@ -117,6 +133,7 @@ export interface Item {
   icon?: string;
 }
 export type ItemType =
+  | 'armors'
   | 'ashes'
   | 'consumables'
   | 'greatRunes'

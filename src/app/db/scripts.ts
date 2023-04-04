@@ -6,6 +6,7 @@ export const SCRIPTS: Script[] = [
     <div>El Grande se Fragmenta</div>
     <div><zanothwikitooltip item-id="keyFingerSlayerBlade">Los Dos Dedos, vasallos de la Gran Voluntad</zanothwikitooltip>, comienzan a manifestar su divina voluntad.</div>
     <div>Llega la Época de los Dragones.</div>
+    <div><zanothwikitooltip item-id="weaponGravelStoneSeal">Los dragones le servían a la Gran Voluntad.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="weaponCinquedea">Se les otorga inteligencia a las bestias, simbolizada por sus cinco dedos.</zanothwikitooltip> Los dos dedos le dan inteligencia a las bestias para que les sirvan a los dragones.</div>
     <div>El Dios Dragon obtiene el Elden Ring. <zanothwikitooltip item-id="remembranceDragonLord">Su pareja, el Elden Lord más antiguo registrado, Placidusax, el Señor Dragon,</zanothwikitooltip><zanothwikitooltip item-id="upgradeAncientDragonSmithingStone"> era un dragón con escamas de oro que tenía su trono en el Corazón de la Tormenta, un lugar "más allá del tiempo". Quizás por su permanencia en ese lugar sus escamas también poseían la propiedad de torcer el tiempo.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="remembranceDragonLord">El Dios Dragón desaparece sin dejar rastro. Placidusax entra en un letargo indefinido esperando la vuelta de su Dios.</zanothwikitooltip></div>
@@ -20,6 +21,7 @@ export const SCRIPTS: Script[] = [
 
     <div><zanothwikitooltip character-id="enia" dialogue-id="enia_1">Las lectoras de dedos se convierten en la voz de los dos dedos</<zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="mapSiofraRiver">La Ciudad Eterna florece.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="armorAlbinauricMask">Los albináuricos son creados para tener cuerpos divinos.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="keyFingerSlayerBlade">La Ciudad Eterna "traiciona" a la Gran Voluntad y crea un arma para matar a los Dos Dedos.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="keyMemoryStone">Aparentemente, la Luna Negra de una Ciudad Eterna es destruída.</zanothwikitooltip> <zanothwikitooltip item-id="talismanMoonOfNokstella">Sin dudas esta era la Luna de Nokstella.</<zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="remembranceAstelNaturalBorn">Astel destruye una Ciudad Eterna y les roba el cielo</zanothwikitooltip></div>
