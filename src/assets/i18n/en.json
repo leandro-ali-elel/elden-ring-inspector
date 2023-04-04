@@ -142,6 +142,18 @@
       "weaponCinquedea": {
         "name": "Cinquedea",
         "description": "<p>The design celebrates a beast's five fingers, symbolic of the intelligence once granted upon their kind.</p>"
+      },
+      "weaponGoldenEpitaph": {
+        "name": "Golden Epitaph",
+        "description": "<p>A sword made to commemorate the death of Godwyn the Golden, first of the demigods to die.</p><p>Infused with the humble prayer of a young boy; 'O brother, lord brother, please die a true death.'</p>"
+      },
+      "weaponSacredRelicSword": {
+        "name": "Sacred Relic Sword",
+        "description": "<p>Sword wrought from the remains of a god who should have lived a life eternal.</p><p>Thoughts on what the weapon portends are many and varied. Some consider it the mark of a great sin, or a sign of great devastation. Some think of it as the end of an age, while others; the beginning.</p>"
+      },
+      "weaponSwordOfNightAndFlame": {
+        "name": "Sword of Night and Flame",
+        "description": "<p>Astrologers, who preceded the sorcerers, established themselves in mountaintops that nearly touched the sky, and considered the Fire Giants their neighbors.</p>"
       }
     }
   }

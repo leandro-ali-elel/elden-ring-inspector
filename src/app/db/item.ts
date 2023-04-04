@@ -84,6 +84,21 @@ export const ITEMS: Item[] = [
     icon: 'weapon_cinquedea.png',
     type: 'weapons',
   },
+  {
+    key: 'weaponGoldenEpitaph',
+    icon: 'weapon_golden_epitaph.png',
+    type: 'weapons',
+  },
+  {
+    key: 'weaponSacredRelicSword',
+    icon: 'weapon_sacred_relic_sword.png',
+    type: 'weapons',
+  },
+  {
+    key: 'weaponSwordOfNightAndFlame',
+    icon: 'weapon_sword_of_night_and_flame.png',
+    type: 'weapons',
+  },
 ];
 
 export interface Item {
