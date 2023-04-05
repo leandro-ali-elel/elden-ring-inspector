@@ -12,20 +12,25 @@ export const SCRIPTS: Script[] = [
     <div><zanothwikitooltip item-id="remembranceDragonLord">El Dios Dragón desaparece sin dejar rastro. Placidusax entra en un letargo indefinido esperando la vuelta de su Dios.</zanothwikitooltip></div>
     
     <div><zanothwikitooltip item-id="shieldTwinbirdKiteShield">El pájaro gemelo es enviado por un Dios Exterior. El pájaro es la madre de todos los Pájaros de la Muerte.</zanothwikitooltip> <zanothwikitooltip item-id="weaponDeathsPoker"> Los pájaros de la muerte eran los guardianes de fuego de los cementerios. Rastrillan las cenizas de los cuerpos de los muertos quemados en sus hornos.</zanothwikitooltip></div>
-    <div>Los Uhn, una de las civilizaciones más antiguas, se desarrollan debajo de la superficie en las cavernas.</div>
-    <div>Los Uhn comienzan a adorar al Dios de la Podredumbre Escarlata</div>
+    <div><zanothwikitooltip item-id="mapSiofraRiver">Algunas civilizaciones antiguas comienzan a florecer bajo tierra.</zanothwikitooltip>Es muy probable que sea la de los Uhn, una de las civilizaciones más antiguas.</div>
+    <div><zanothwikitooltip item-id="armorMushroomCrown">Una civilización adoró a la Podredumbre Escarlata</zanothwikitooltip>. Dada su ubicación y el estado de las estatuas y los templos cercanos a Astel, es muy probable que sea la civilización de los Uhn.</div>
     <div><zanothwikitooltip item-id="talismanBlueDancerCharm">Según una leyenda, un hada le otorga a un hombre ciego una espada. Espada en mano, el espadachín sella al Dios Exterior de la Podredumbre Escarlata.</zanothwikitooltip> <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </div>
     <div>La civilización de los Uhn muere esperando el sonar de las trompetas de los oráculos. Sus ciudades quedan en ruinas.</div>
-    <div><zanothwikitooltip item-id="weaponSwordOfNightAndFlame">Los astrólogos se sitúan en los picos de las montañas del norte, y se consideraban vecinos de los Gigantes de Fuego.</zanothwikitooltip><zanothwikitooltip item-id="armorAstrologerSet"> Leían el destino en las estrellas, y fueron los ancestros de los hechiceros de Piedras Refulgentes</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="weaponSwordOfNightAndFlame">Los astrólogos se sitúan en los picos de las montañas del norte, y se consideran vecinos de los Gigantes de Fuego.</zanothwikitooltip><zanothwikitooltip item-id="armorAstrologerSet"> Leían el destino en las estrellas, y fueron los ancestros de los hechiceros de Piedras Refulgentes</zanothwikitooltip></div>
     <div>Un grupo de personas comienzan a vivir en las montañas de Liurnia. Esta gente, a la que denominaremos como "lunares" comienza a adorar a la Luna Llena y a clamar por la Edad de las Estrellas.</div>
-    <div>La Gran Voluntad lo considera un acto de traición, y por lo tanto los envía a vivir bajo tierra.</div>
+    <div>Los Dos Dedos de la Catedral de Manus Celes le comunican a la Gran Voluntad los deseos de los lunares.</div>
+    <div>La Gran Voluntad los exilia bajo tierra, por eso les quita "el cielo".</div>
     <div>La oscuridad de las cavernas los hace pálidos y plateados, se convierten en Nox.</div>
-    <div>Los Nox utilizan muchas artimañas para evitar el control de la Gran Voluntad, y planifican asesinar a los Dos Dedos.</div>
     <div>Se crean tres ciudades eternas: Nokron, Nokstella y una desconocida.</div>
+    <div>Los Nox utilizan muchas artimañas para evitar el control de la Gran Voluntad, y planifican asesinar a los Dos Dedos.</div>
+    <div><zanothwikitooltip item-id="keyFingerSlayerBlade">La Ciudad Eterna "traiciona" a la Gran Voluntad y crea un arma para matar a los Dos Dedos.</zanothwikitooltip></div>
     <div>Comienza la búsqueda para crear un Señor, se crea la lágrima mimética.</div>
     <div>Si no me equivoco esto genera mercurio. Con el mercurio se crean los albináuricos</div>
-    <div>Si no me equivoco el mercurio se utiliza para crear a los Numen, y a Marika.</div>
+    <div><zanothwikitooltip item-id="armorAlbinauricMask">Los albináuricos tienen pieles divínas,</zanothwikitooltip> lo que me lleva a creer que se los creó con esa razón. Pareciera que los nox estaban intentando bajo todos los medios crear numen... o algo así.</div>
+    <div>Si no me equivoco el mercurio se utiliza para crear a los Numen, y a Marika, la Eterna.</div>
     <div>En el Rebis, el Rey Rojo es azufre, y la Reina Blanca es Mercurio (plata líquida).</div>
+    <div><zanothwikitooltip item-id="keyMemoryStone">Aparentemente, la Luna Negra de una Ciudad Eterna es destruída.</zanothwikitooltip> <zanothwikitooltip item-id="talismanMoonOfNokstella">Sin dudas esta era la Luna de Nokstella.</<zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="remembranceAstelNaturalBorn">Astel destruye una Ciudad Eterna y les roba el cielo</zanothwikitooltip></div>
     <div>Diversas intercepciones de la Gran Voluntad y el congelamiento del destino de las estrellas llevan a las Ciudades Eternas a cometer errores con el mercurio, se pierden en las profundidades.</div>
 
     <div>Los Dragones de hielo luchan contra los gigantes de fuego y son expulsados de las montañas.</div>
@@ -36,11 +41,7 @@ export const SCRIPTS: Script[] = [
     <div><zanothwikitooltip item-id="weaponRuinsGreatsword">Farum Azula es golpeado por un meteorito. Quizás por esa razón comienza a derrumbarse.</zanothwikitooltip> Este meteorito habrá sido bastante grande, ¿quizás fue el de la Elden Beast?</div>
 
     <div><zanothwikitooltip character-id="enia" dialogue-id="enia_1">Las lectoras de dedos se convierten en la voz de los dos dedos</<zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="mapSiofraRiver">La Ciudad Eterna florece.</zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="armorAlbinauricMask">Los albináuricos son creados para tener cuerpos divinos.</zanothwikitooltip>. Pareciera que los nox estaban intentando bajo todos los medios crear numen... o algo así.</div>
-    <div><zanothwikitooltip item-id="keyFingerSlayerBlade">La Ciudad Eterna "traiciona" a la Gran Voluntad y crea un arma para matar a los Dos Dedos.</zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="keyMemoryStone">Aparentemente, la Luna Negra de una Ciudad Eterna es destruída.</zanothwikitooltip> <zanothwikitooltip item-id="talismanMoonOfNokstella">Sin dudas esta era la Luna de Nokstella.</<zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="remembranceAstelNaturalBorn">Astel destruye una Ciudad Eterna y les roba el cielo</zanothwikitooltip></div>
+  
     <div>Se planta el Erdtree extrayendo energía del Crisol Primigenio. Se sella Muerte Destinada. Se crea la Orden Dorada.</div>
   
     <div><zanothwikitooltip item-id="weaponSacredRelicSword">Se designa que Marika debe vivir por siempre.</zanothwikitooltip></div>

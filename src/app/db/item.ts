@@ -25,6 +25,11 @@ export const ITEMS: Item[] = [
     type: 'armors',
   },
   {
+    key: 'armorMushroomCrown',
+    icon: 'armor_mushroom_crown.png',
+    type: 'armors',
+  },
+  {
     key: 'consumableFlaskOfCrimsonTears',
     icon: 'flask_of_crimson_tears.png',
     type: 'consumables',

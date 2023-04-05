@@ -83,6 +83,10 @@
       "armorEldenLordSet": {
         "name": "Elden Lord Set",
         "description": "<p>The age of the Erdtree began amongst conflict, when Godfrey was lord of the battlefield.</p><p>He led the War against the Giants. Faced the Storm Lord, alone. And then, there came a moment. When his last worthy enemy fell. And it was then, as the story is told, that the hue of Lord Godfrey's eyes faded.</p>"
+      },
+      "armorMushroomCrown": {
+        "name": "Mushroom Crown",
+        "description": "<p>Long ago, great lords served the scarlet rot. Perhaps such fungal bodies served as their crowns.</p>"
       }
     },
     "consumables": {
