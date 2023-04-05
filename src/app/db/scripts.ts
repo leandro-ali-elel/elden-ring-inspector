@@ -10,14 +10,30 @@ export const SCRIPTS: Script[] = [
     <div><zanothwikitooltip item-id="weaponCinquedea">Se les otorga inteligencia a las bestias, simbolizada por sus cinco dedos.</zanothwikitooltip> Los dos dedos le dan inteligencia a las bestias para que les sirvan a los dragones.</div>
     <div>El Dios Dragon obtiene el Elden Ring. <zanothwikitooltip item-id="remembranceDragonLord">Su pareja, el Elden Lord más antiguo registrado, Placidusax, el Señor Dragon,</zanothwikitooltip><zanothwikitooltip item-id="upgradeAncientDragonSmithingStone"> era un dragón con escamas de oro que tenía su trono en el Corazón de la Tormenta, un lugar "más allá del tiempo". Quizás por su permanencia en ese lugar sus escamas también poseían la propiedad de torcer el tiempo.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="remembranceDragonLord">El Dios Dragón desaparece sin dejar rastro. Placidusax entra en un letargo indefinido esperando la vuelta de su Dios.</zanothwikitooltip></div>
+    
+    <div><zanothwikitooltip item-id="shieldTwinbirdKiteShield">El pájaro gemelo es enviado por un Dios Exterior. El pájaro es la madre de todos los Pájaros de la Muerte.</zanothwikitooltip> <zanothwikitooltip item-id="weaponDeathsPoker"> Los pájaros de la muerte eran los guardianes de fuego de los cementerios. Rastrillan las cenizas de los cuerpos de los muertos quemados en sus hornos.</zanothwikitooltip></div>
+    <div>Los Uhn, una de las civilizaciones más antiguas, se desarrollan debajo de la superficie en las cavernas.</div>
+    <div>Los Uhn comienzan a adorar al Dios de la Podredumbre Escarlata</div>
+    <div><zanothwikitooltip item-id="talismanBlueDancerCharm">Según una leyenda, un hada le otorga a un hombre ciego una espada. Espada en mano, el espadachín sella al Dios Exterior de la Podredumbre Escarlata.</zanothwikitooltip> <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </div>
+    <div>La civilización de los Uhn muere esperando el sonar de las trompetas de los oráculos. Sus ciudades quedan en ruinas.</div>
+    <div><zanothwikitooltip item-id="weaponSwordOfNightAndFlame">Los astrólogos se sitúan en los picos de las montañas del norte, y se consideraban vecinos de los Gigantes de Fuego.</zanothwikitooltip><zanothwikitooltip item-id="armorAstrologerSet"> Leían el destino en las estrellas, y fueron los ancestros de los hechiceros de Piedras Refulgentes</zanothwikitooltip></div>
+    <div>Un grupo de personas comienzan a vivir en las montañas de Liurnia. Esta gente, a la que denominaremos como "lunares" comienza a adorar a la Luna Llena y a clamar por la Edad de las Estrellas.</div>
+    <div>La Gran Voluntad lo considera un acto de traición, y por lo tanto los envía a vivir bajo tierra.</div>
+    <div>La oscuridad de las cavernas los hace pálidos y plateados, se convierten en Nox.</div>
+    <div>Los Nox utilizan muchas artimañas para evitar el control de la Gran Voluntad, y planifican asesinar a los Dos Dedos.</div>
+    <div>Se crean tres ciudades eternas: Nokron, Nokstella y una desconocida.</div>
+    <div>Comienza la búsqueda para crear un Señor, se crea la lágrima mimética.</div>
+    <div>Si no me equivoco esto genera mercurio. Con el mercurio se crean los albináuricos</div>
+    <div>Si no me equivoco el mercurio se utiliza para crear a los Numen, y a Marika.</div>
+    <div>En el Rebis, el Rey Rojo es azufre, y la Reina Blanca es Mercurio (plata líquida).</div>
+    <div>Diversas intercepciones de la Gran Voluntad y el congelamiento del destino de las estrellas llevan a las Ciudades Eternas a cometer errores con el mercurio, se pierden en las profundidades.</div>
 
     <div>Los Dragones de hielo luchan contra los gigantes de fuego y son expulsados de las montañas.</div>
-    <div><zanothwikitooltip item-id="weaponSwordOfNightAndFlame">Los astrólogos se sitúan en los picos de las montañas del norte, y se consideraban vecinos de los Gigantes de Fuego.</zanothwikitooltip><zanothwikitooltip item-id="armorAstrologerSet"> Leían el destino en las estrellas, y fueron los ancestros de los hechiceros de Piedras Refulgentes</zanothwikitooltip></div>
-    <div>Un astrónomo observa la corriente primigenia, desatando una lluvia de Piedras Refulgentes </div>
     
-    <div><zanothwikitooltip item-id="talismanBlueDancerCharm">Según una leyenda, un hada le otorgó a un hombre ciego una espada. Espada en mano, el espadachín selló al Dios Exterior de la Podredumbre Escarlata.</zanothwikitooltip> <zanothwikitooltip item-id="mapLakeOfRot">El Dios queda prisionero en el Lago de la Putrefacción.</zanothwikitooltip> </div>
-
-    <div><zanothwikitooltip item-id="weaponRuinsGreatsword">Farum Azula es golpeado por un meteorito. Quizás por esa razón comienza a derrumbarse. Este meteorito habrá sido bastante grande, ¿quizás fue el de la Elden Beast?</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="shieldOneEyedShield">Los gigantes de fuego de las montañas adoraban a una entidad divina malévola.</zanothwikitooltip></div>
+    
+    <div>Un astrónomo observa la corriente primigenia, desatando una lluvia de Piedras Refulgentes </div>
+    <div><zanothwikitooltip item-id="weaponRuinsGreatsword">Farum Azula es golpeado por un meteorito. Quizás por esa razón comienza a derrumbarse.</zanothwikitooltip> Este meteorito habrá sido bastante grande, ¿quizás fue el de la Elden Beast?</div>
 
     <div><zanothwikitooltip character-id="enia" dialogue-id="enia_1">Las lectoras de dedos se convierten en la voz de los dos dedos</<zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="mapSiofraRiver">La Ciudad Eterna florece.</zanothwikitooltip></div>
@@ -26,11 +42,13 @@ export const SCRIPTS: Script[] = [
     <div><zanothwikitooltip item-id="keyMemoryStone">Aparentemente, la Luna Negra de una Ciudad Eterna es destruída.</zanothwikitooltip> <zanothwikitooltip item-id="talismanMoonOfNokstella">Sin dudas esta era la Luna de Nokstella.</<zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="remembranceAstelNaturalBorn">Astel destruye una Ciudad Eterna y les roba el cielo</zanothwikitooltip></div>
     <div>Se planta el Erdtree extrayendo energía del Crisol Primigenio. Se sella Muerte Destinada. Se crea la Orden Dorada.</div>
-    
+  
     <div><zanothwikitooltip item-id="weaponSacredRelicSword">Se designa que Marika debe vivir por siempre.</zanothwikitooltip></div>
-    <div><zanothwikitooltip item-id="talismanGodfreyIcon">Godfrey jura convertirse en Elden Lord. Para concretar la ceremonia, la bestia Regente Serosh suprime su lujuria por la batalla. </zanothwikitooltip></div>
+    <div>Para comenzar el reinado de Marika, necesitaba una pareja,<zanothwikitooltip item-id="armorEldenLordSet"> entonces el candidato ideal parecía ser Godfrey, quien ya era conocido como el Señor del Campo de Batalla.</zanothwikitooltip> <zanothwikitooltip item-id="armorCrucibleKnightSet">Godfrey, a quien le servían los caballeros del Crisol</zanothwikitooltip>, <zanothwikitooltip item-id="talismanGodfreyIcon"> juró convertirse en Elden Lord. Para concretar la ceremonia, la bestia Regente Serosh suprime su lujuria por la batalla. </zanothwikitooltip> <zanothwikitooltip item-id="armorCrucibleKnightSet">Posterior a esto, así como todo lo relacionado al Crisol Primigenio, con el paso del tiempo los Caballeros del Crisol también comenzaron a ser vistos como caóticos y despreciados.</zanothwikitooltip></div>
+    <div><zanothwikitooltip item-id="talismanRoarMedallion">Al principio, en la juventud del Árbol Áureo, la naturaleza de los gigantes representaba un gran peligro para su existencia, por eso eran considerados enemigos mortales.</zanothwikitooltip></div>
+    <div></div>
     <div><zanothwikitooltip item-id="greatRuneGodrick">Godfrey y Marika tienen hijos, y forman el Linaje Dorado, los primeros semidioses</zanothwikitooltip></div>
-
+    <div><zanothwikitooltip item-id="shieldOneEyedShield">El Dios Malévolo de los Gigantes de Fuego es asesinado por Marika.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="weaponBoltOfGransax">Gransax ataca Leyndell y derrumba los muros, comenzando la guerra contra los Dragones Antiguos.</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="weaponBlackKnife">Godwyn es asesinado por las Cuchillas Negras en la Noche del Complot. Sus armas infundidas con el poder de la Runa de la Muerte.</zanothwikitooltip><zanothwikitooltip item-id="armorBlackKnifeHood"> Se rumorea que las asesinas de Godwyn fueron todas mujeres Numen con conexiones estrechas con Marika</zanothwikitooltip></div>
     <div><zanothwikitooltip item-id="weaponGoldenEpitaph">En conmemoración de la muerte de Godwyn se creó una espada, y las palabras de Miquella le fueron grabadas: "Oh, hermano, Señor hermano, muere una verdadera muerte." Mostrando al simpatía de Miquella por la condición de Godwyn.</zanothwikitooltip></div>

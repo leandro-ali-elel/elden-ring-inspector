@@ -75,6 +75,14 @@
       "armorBlackKnifeHood": {
         "name": "Black Knife Hood",
         "description": "<p>The assassins that carried out the deeds of the Night of the Black Knives were all women, and rumored to be Numen who had close ties with Marika herself.</p>"
+      },
+      "armorCrucibleKnightSet": {
+        "name": "Crucible Knight Set",
+        "description": "<p>Armor of the Crucible Knights who served Godfrey, the first Elden Lord.</p><p>Hold the power of the crucible of life, the primordial form of the Erdtree.</p><p>In time, the strength shown by these knights, and even their appearance, was seen as chaotic and deserving of scorn.</p>"
+      },
+      "armorEldenLordSet": {
+        "name": "Elden Lord Set",
+        "description": "<p>The age of the Erdtree began amongst conflict, when Godfrey was lord of the battlefield.</p><p>He led the War against the Giants. Faced the Storm Lord, alone. And then, there came a moment. When his last worthy enemy fell. And it was then, as the story is told, that the hue of Lord Godfrey's eyes faded.</p>"
       }
     },
     "consumables": {
@@ -131,6 +139,16 @@
         "description": "The Dragonlord whose seat lies at the heart of the storm beyond time is said to have been Elden Lord in the age before the Erdtree. Once his god was fled, the lord continued to await its return."
       }
     },
+    "shields": {
+      "shieldOneEyedShield": {
+        "name": "One Eyed Shield",
+        "description": "<p>Tricksome shield made from white stone depicting a malformed one-eyed god. The barrel of a firearm pokes through the open mouth.</p><p>Once worshipped by the giants, this evil deity is believed to have been slain by Queen Marika. </p>"
+      },
+      "shieldTwinbirdKiteShield": {
+        "name": "Twinbird Kite Shield",
+        "description": "<p>Shield featuring a vividly painted twinbird.</p><p>The twinbird is said to be the envoy of an outer god, and mother of the Deathbirds.</p>"
+      }
+    },
     "talismans": {
       "talismanBlueDancerCharm": {
         "name": "Blue Dancer Charm",
@@ -147,6 +165,10 @@
       "talismanMoonOfNokstella": {
         "name": "Moon of Nokstella",
         "description": "<p>This talisman represents the lost black moon.</p><p>The moon of Nokstella was the guide of countless stars.</p>"
+      },
+      "talismanRoarMedallion": {
+        "name": "Roar Medallion",
+        "description": "<p>In ancient times, the giants were mortal enemies of the Erdtree.</p><p>Their bellowing roars desolated nature, triggered avalanches, and whipped up storms of flame.</p>"
       }
     },
     "upgrades": {
@@ -167,6 +189,10 @@
       "weaponCinquedea": {
         "name": "Cinquedea",
         "description": "<p>The design celebrates a beast's five fingers, symbolic of the intelligence once granted upon their kind.</p>"
+      },
+      "weaponDeathsPoker": {
+        "name": "Deaths Poker",
+        "description": "<p>Barbed rod carried by Deathbirds.</p><p>The birds are graveyard fire keepers; it is said they rake out the ashen remains of the dead from their kilns.</p>"
       },
       "weaponGoldenEpitaph": {
         "name": "Golden Epitaph",

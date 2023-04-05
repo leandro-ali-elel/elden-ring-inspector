@@ -15,6 +15,16 @@ export const ITEMS: Item[] = [
     type: 'armors',
   },
   {
+    key: 'armorCrucibleKnightSet',
+    icon: 'armor_crucible_knight_set.png',
+    type: 'armors',
+  },
+  {
+    key: 'armorEldenLordSet',
+    icon: 'armor_elden_lord_set.png',
+    type: 'armors',
+  },
+  {
     key: 'consumableFlaskOfCrimsonTears',
     icon: 'flask_of_crimson_tears.png',
     type: 'consumables',
@@ -70,6 +80,16 @@ export const ITEMS: Item[] = [
     type: 'remembrances',
   },
   {
+    key: 'shieldOneEyedShield',
+    icon: 'shield_one_eyed_shield.png',
+    type: 'shields',
+  },
+  {
+    key: 'shieldTwinbirdKiteShield',
+    icon: 'shield_twinbird_kite_shield.png',
+    type: 'shields',
+  },
+  {
     key: 'talismanBlueDancerCharm',
     icon: 'talisman_blue_dancer_charm.png',
     type: 'talismans',
@@ -90,6 +110,11 @@ export const ITEMS: Item[] = [
     type: 'talismans',
   },
   {
+    key: 'talismanRoarMedallion',
+    icon: 'talisman_roar_medallion.png',
+    type: 'talismans',
+  },
+  {
     key: 'upgradeAncientDragonSmithingStone',
     icon: 'upgrade_ancient_dragon_smithing_stone.png',
     type: 'upgrades',
@@ -107,6 +132,11 @@ export const ITEMS: Item[] = [
   {
     key: 'weaponCinquedea',
     icon: 'weapon_cinquedea.png',
+    type: 'weapons',
+  },
+  {
+    key: 'weaponDeathsPoker',
+    icon: 'weapon_deaths_poker.png',
     type: 'weapons',
   },
   {
@@ -149,6 +179,7 @@ export type ItemType =
   | 'keys'
   | 'maps'
   | 'remembrances'
+  | 'shields'
   | 'talismans'
   | 'upgrades'
   | 'weapons';
